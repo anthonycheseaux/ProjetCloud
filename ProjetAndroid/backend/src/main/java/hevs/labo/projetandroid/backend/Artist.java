@@ -51,6 +51,7 @@ public class Artist {
 
     //getter
 
+
     public int getId() { return id; }
 
     public String getFirstname(){

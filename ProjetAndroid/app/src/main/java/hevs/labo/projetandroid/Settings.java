@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.RadioButton;
 
+import java.util.List;
 import java.util.Locale;
 
 import hevs.labo.projetandroid.backend.artistApi.model.Artist;
@@ -117,10 +118,11 @@ public class Settings extends AppCompatActivity {
     public void sync(View view){
         //new EndpointsAsyncTaskHello().execute(new Pair<Context, String>(this, "Manfred"));
         ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
-        Artist artist = ads.getArtistByIdBackend(1);
+        List<Artist> artistList = ads.getAllArtistsBackend();
 
-        new EndpointsAsyncTaskArtist().execute(new Pair<Context, Artist>(this, artist));
+        new EndpointsAsyncTaskArtist().execute(new Pair<Context, List<Artist>>(this, artistList));
 
+        //new EndpointAsyncTaskArtistGet().execute(new Pair<Context, String>(this, "un artiste"));
     }
 
     public void setLocale(String lang) {

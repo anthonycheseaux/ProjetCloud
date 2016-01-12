@@ -12,22 +12,25 @@ import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 
 import java.io.IOException;
+import java.util.List;
 
 import hevs.labo.projetandroid.backend.artistApi.ArtistApi;
+import hevs.labo.projetandroid.backend.artistApi.ArtistApiRequest;
 import hevs.labo.projetandroid.backend.artistApi.model.Artist;
+import hevs.labo.projetandroid.backend.artistApi.model.CollectionResponseArtist;
 import hevs.labo.projetandroid.backend.myApi.MyApi;
 
 /**
  * Created by Anthony on 12/01/2016.
  */
-public class EndpointsAsyncTaskArtist extends AsyncTask<Pair<Context, Artist>, Void, String> {
+public class EndpointsAsyncTaskArtist extends AsyncTask<Pair<Context, List<Artist>>, Void, String> {
     private static ArtistApi artistApi = null;
     private Context context;
     private static final String TAG = EndpointsAsyncTaskArtist.class.getName();
-    private Artist artist;
+    private List<Artist> artistList;
 
     @Override
-    protected String doInBackground(Pair<Context, Artist>... params) {
+    protected String doInBackground(Pair<Context, List<Artist>>... params) {
         if (artistApi == null) {
             // Only do this once
             ArtistApi.Builder builder = new ArtistApi.Builder(AndroidHttp.newCompatibleTransport(),
@@ -42,11 +45,18 @@ public class EndpointsAsyncTaskArtist extends AsyncTask<Pair<Context, Artist>, V
         }
 
         context = params[0].first;
-        artist = params[0].second;
+        artistList = params[0].second;
+
+
 
         try {
-            if (artist != null) {
-                return artistApi.insert(artist).execute().getId().toString();
+            if (artistList != null) {
+                //return artistApi.insert(artist).execute().getId().toString();
+                for(int i=0; i < artistList.size(); i++) {
+                    artistApi.insert(artistList.get(i)).execute().getId().toString();
+                }
+
+                return "Successfull";
             }
         } catch (IOException e) {
             Log.e(TAG, e.toString());

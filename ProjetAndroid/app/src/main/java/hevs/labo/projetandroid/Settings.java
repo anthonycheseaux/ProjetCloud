@@ -1,11 +1,13 @@
 package hevs.labo.projetandroid;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -107,6 +109,10 @@ public class Settings extends AppCompatActivity {
     public void save_language(View view){
         Intent intent = new Intent(this, List_room.class);
         startActivity(intent);
+    }
+
+    public void sync(View view){
+        new EndpointsAsyncTaskHello().execute(new Pair<Context, String>(this, "Manfred"));
     }
 
     public void setLocale(String lang) {

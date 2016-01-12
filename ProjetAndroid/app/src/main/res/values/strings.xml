@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Art gallery</string>
+
+    <string name="artist">Artist</string>
+    <string name="artists">Artists</string>
+    <string name="selectArtist">Select an artist...</string>
+
+    <string name="artwork">Artwork</string>
+    <string name="artworks">Artworks</string>
+    <string name="selectArtwork">Select an artwork...</string>
+
+    <string name="room">Room</string>
+    <string name="rooms">Rooms</string>
+    <string name="selectRoom">Select a room...</string>
+
+    <string name="exhibition">Exhibition</string>
+    <string name="exhibitions">Exhibitions</string>
+
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="description">Description</string>
+    <string name="movement">Movement</string>
+    <string name="list">List</string>
+    <string name="name">Name</string>
+    <string name="lastname">Lastname</string>
+    <string name="firstname">Firstname</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="type">Type</string>
+    <string name="manage">Manage</string>
+    <string name="save">Save</string>
+    <string name="create">Create</string>
+    <string name="create_artist">Create artist</string>
+    <string name="create_artwork">Create artwork</string>
+    <string name="create_room">Create room</string>
+    <string name="modify">Modify</string>
+    <string name="modify_artist">Modify artist</string>
+    <string name="modify_artwork">Modify artwork</string>
+    <string name="modify_room">Modify room</string>
+    <string name="exposed">Exposed</string>
+    <string name="creation_year">Creation year</string>
+    <string name="occupated">Occupated</string>
+    <string name="size">Size</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="deathdate">Deathdate</string>
+    <string name="language">Language</string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="english">English</string>
+    <string name="gallery_state">Current gallery state</string>
+    <string name="artwork_exposed">Artworks exposed : </string>
+    <string name="artist_exposed">Artists exposed : </string>
+    <string name="room_used">Rooms occupated : </string>
+    <string name="measure">m2</string>
+    <string name="artexpose">Exposé</string>
+    <string name="nan">nan</string>
+
+
+    <!--**********************Toast***********************************************************-->
+    <string name="noImagePicked">You haven\'t picket Image</string>
+    <string name="stgWentWrong">Something went wrong</string>
+
+    <string name="exhibitionAdded">Exhibition added</string>
+    <string name="artistAdded">Artist added</string>
+    <string name="artworkAdded">Artwork added</string>
+    <string name="roomAdded">Room added</string>
+
+    <string name="exhibitionDeleted">Exhibition deleted</string>
+    <string name="artistDeleted">Artist deleted</string>
+    <string name="artworkDeleted">Artwork deleted</string>
+    <string name="roomDeleted">Room deleted</string>
+
+    <string name="artistModified">Artist modified</string>
+    <string name="artworkModified">Artwork modified</string>
+    <string name="roomModified">Room Modified</string>
+
+    <!--**********************Manifest***********************************************************-->
+    <string name="title_activity_card_artwork">Artwork</string>
+    <string name="title_activity_modify_artwork">Modify artwork</string>
+    <string name="title_activity_create_artwork">Create artwork</string>
+    <string name="title_activity_list_artwork">Artworks</string>
+
+    <string name="title_activity_list_room">Rooms</string>
+    <string name="title_activity_create_room">Create room</string>
+    <string name="title_activity_modify_room">Modify room</string>
+    <string name="title_activity_card_room">Room</string>
+
+    <string name="title_activity_list_exhibition">Exhibitions</string>
+    <string name="title_activity_create_exhibition">Create exhibition</string>
+    <string name="title_activity_card_exhibition">Exhibition</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="title_activity_card_artist">Artist</string>
+    <string name="title_activity_modify_artist">Modify artist</string>
+    <string name="title_activity_create_artist">Create artists</string>
+    <string name="title_activity_list_artist">Artists</string>
+
+
+    <!--***********************Menu action bar icon**********************************************-->
+    <string name="addArtist_menu">Add an Artist</string>
+    <string name="search_artist">Search Artist</string>
+    <string name="search_artwork">Search Artwork</string>
+    <string name="addArtwork_menu">Add an Artwork</string>
+    <string name="addExhibition_menu">Add an Exhibition</string>
+    <string name="search_exhibition">Search Exhibition</string>
+    <string name="addRoom_menu">Add a room</string>
+    <string name="search_room">Search Room</string>
+    <string name="backToListArtist_menu">Back to list Artist</string>
+    <string name="modifyArtist_menu">Modify Artist</string>
+    <string name="deleteArtist_menu">Delete Artist</string>
+    <string name="modifyArtwork_menu">Modify Artwork</string>
+    <string name="deleteArtwork_menu">Delete Artwork</string>
+    <string name="modifyRoom_menu">Modify Room</string>
+    <string name="deleteRoom_menu">Delete Room</string>
+    <string name="deleteExhibition_menu">Delete Exhibition</string>
+    <string name="cancelartistcreated_menu">Cancel Artist created</string>
+    <string name="saveartistcreated_menu">Save Artist created</string>
+    <string name="cancelartworkcreated_menu">Cancel Artwork created</string>
+    <string name="saveartworkcreated_menu">Save Artwork created</string>
+    <string name="cancelroomcreated_menu">Cancel Room created</string>
+    <string name="saveroomcreated_menu">Save Room created</string>
+    <string name="cancelexhibitioncreated_menu">Cancel Exhibition created</string>
+    <string name="saveexhibitioncreated_menu">Save Exhibition created</string>
+    <string name="cancelartistmodified_menu">Cancel Artist modified</string>
+    <string name="saveartistmodified_menu">Save Artist modified</string>
+    <string name="cancelartworkmodified_menu">Cancel Artwork modified</string>
+    <string name="saveartworkmodified_menu">Save Artwork modified</string>
+    <string name="cancelroommodified_menu">Cancel Room modified</string>
+    <string name="saveroommodified_menu">Save Room modified</string>
+
+
+    <!--Spinner-->
+    <string-array name="mvt_array">
+        <item>Abstract art</item>
+        <item>Concreate art</item>
+        <item>Art nouveau</item>
+        <item>Baroque</item>
+        <item>Classic</item>
+        <item>Cobra</item>
+        <item>Cubism</item>
+        <item>Futurism</item>
+        <item>Gothique</item>
+        <item>Impressionnism</item>
+        <item>Modernism</item>
+        <item>Naturalism</item>
+        <item>Renaissance</item>
+        <item>Rococo</item>
+        <item>Romaniste</item>
+        <item>Surrealism</item>
+    </string-array>
+
+    <string-array name="type_artwork_array">
+        <item>Painting</item>
+        <item>Sculpture</item>
+        <item>Engraving</item>
+        <item>Drawing</item>
+    </string-array>
+
+</resources>

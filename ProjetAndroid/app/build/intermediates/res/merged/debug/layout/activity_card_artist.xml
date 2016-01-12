@@ -1,0 +1,121 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="hevs.labo.projetandroid.Card_artist">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_nom_artiste"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="55"
+            android:gravity="center"
+            android:text="Artiste NAN"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <!--Dans Action Bar désormais-->
+
+    <!--   <ImageButton
+            android:id="@+id/button_backToList"
+            style="@style/imageButton"
+            android:src="@mipmap/back" />
+
+        <ImageButton
+            android:id="@+id/button_modifyArtist"
+            style="@style/imageButton"
+            android:src="@mipmap/pencil" />
+
+        <ImageButton
+            android:id="@+id/button_deleteArtist"
+            style="@style/imageButton"
+            android:src="@mipmap/trash" /> -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView_Artist"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_descriptionArtist_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/nan"
+                android:textColor="#000010" />
+
+            <TextView
+                android:id="@+id/tv_descriptionArtist_movement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/movement"
+                android:textColor="#000010" />
+
+            <TextView
+                android:id="@+id/tv_descriptionArtist_descriptionmovement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/nan"
+                android:textColor="#000010" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titre_list_oeuvre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/artworks"
+                android:textColor="#000010"
+                android:textSize="20dp" />
+
+            <ListView
+                android:id="@+id/list_oeuvre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/layout/activity_card_artist.xml -->

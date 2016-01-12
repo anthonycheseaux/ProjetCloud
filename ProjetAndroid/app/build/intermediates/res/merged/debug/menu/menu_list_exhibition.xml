@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.List_exhibition">
+
+    <item android:id="@+id/accueil_menu"
+        android:title="@string/home"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/artist_menu"
+        android:title="@string/artists"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/list_artwork_menu"
+        android:title="@string/artworks"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/parametres_menu"
+        android:title="@string/settings"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        />
+
+    <item android:id ="@+id/addExhibition_menu"
+        android:title="@string/addExhibition_menu"
+        android:icon="@mipmap/addblue"
+        android:orderInCategory="5"
+        app:showAsAction="ifRoom|withText"/>
+
+
+</menu>
+<!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/menu/menu_list_exhibition.xml -->

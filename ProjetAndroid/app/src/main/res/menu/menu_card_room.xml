@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.Card_room">
+
+    <item android:id="@+id/rooms_menu"
+        android:title="@string/rooms"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/modifyRoom_menu"
+        android:title="@string/modifyRoom_menu"
+        android:icon="@mipmap/modifyblue"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"/>
+
+
+
+    <item android:id="@+id/deleteRoom_menu"
+        android:title="@string/deleteRoom_menu"
+        android:icon="@mipmap/deleteboxblue"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

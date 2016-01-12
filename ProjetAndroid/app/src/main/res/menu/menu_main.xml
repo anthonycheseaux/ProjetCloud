@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/artist_menu"
+        android:title="@string/artists"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/list_artwork_menu"
+        android:title="@string/artworks"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/exposition_menu"
+        android:title="@string/exhibitions"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/parametres_menu"
+        android:title="@string/settings"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        />
+</menu>

@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Galerie d\'art</string>
+
+    <string name="artist">Artiste</string>
+    <string name="artists">Artistes</string>
+
+    <string name="artwork">Oeuvre d\'art</string>
+    <string name="artworks">Oeuvres d\'art</string>
+
+    <string name="room">Salle</string>
+    <string name="rooms">Salles</string>
+
+    <string name="exhibition">Exposition</string>
+    <string name="exhibitions">Exposition</string>
+
+    <string name="home">Accueil</string>
+    <string name="settings">Paramètres</string>
+    <string name="description">Description</string>
+    <string name="movement">Mouvement</string>
+    <string name="list">Liste</string>
+    <string name="name">Nom</string>
+    <string name="lastname">Nom</string>
+    <string name="firstname">Prénom</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="type">Type</string>
+    <string name="manage">Gérer</string>
+    <string name="save">Sauver</string>
+    <string name="create">Créer</string>
+    <string name="create_artist">Créer un artiste</string>
+    <string name="create_artwork">Créer un oeuvre</string>
+    <string name="create_room">Créer une salle</string>
+    <string name="modify">Modifier</string>
+    <string name="modify_artist">Modifier un artiste</string>
+    <string name="modify_artwork">Modifier une oeuvre</string>
+    <string name="modify_room">Modifier une salle</string>
+    <string name="exposed">Exposé</string>
+    <string name="creation_year">Date de création</string>
+    <string name="occupated">Occupée</string>
+    <string name="size">Taille</string>
+    <string name="birthdate">Naissance</string>
+    <string name="deathdate">Mort</string>
+    <string name="language">Langage</string>
+    <string name="french">Français</string>
+    <string name="english">Anglais</string>
+    <string name="gallery_state">Etat actuel de la galerie</string>
+    <string name="artwork_exposed">Oeuvres exposées : </string>
+    <string name="artist_exposed">Artistes exposés : </string>
+    <string name="room_used">Salles occupées : </string>
+    <string name="measure">m2</string>
+    <string name="artexpose">Exposé</string>
+    <string name="nan">nan</string>
+
+
+    <!--**********************Toast***********************************************************-->
+    <string name="noImagePicked">Vous n\'avez pas choisi d\'image</string>
+    <string name="stgWentWrong">Quelque chose s\'est mal passé</string>
+
+    <string name="exhibitionAdded">Exposition ajoutée</string>
+    <string name="artistAdded">Artiste ajouté</string>
+    <string name="artworkAdded">Oeuvre ajoutée</string>
+    <string name="roomAdded">Salle ajoutée</string>
+
+    <string name="exhibitionDeleted">Exposition supprimée</string>
+    <string name="artistDeleted">Artiste supprimé</string>
+    <string name="artworkDeleted">Oeuvre supprimée</string>
+    <string name="roomDeleted">Salle supprimée</string>
+
+    <string name="artistModified">Artiste modifié</string>
+    <string name="artworkModified">Oeuvre modifiée</string>
+    <string name="roomModified">Salle modifiée</string>
+
+    <!--**********************Manifest***********************************************************-->
+    <string name="title_activity_card_artwork">Oeuvre d\'art</string>
+    <string name="title_activity_modify_artwork">Modifier oeuvre</string>
+    <string name="title_activity_create_artwork">Créer une oeuvre</string>
+    <string name="title_activity_list_artwork">Oeuvres d\'art</string>
+
+    <string name="title_activity_list_room">Salles</string>
+    <string name="title_activity_create_room">Créer une salle</string>
+    <string name="title_activity_modify_room">Modifier une salle</string>
+    <string name="title_activity_card_room">Salle</string>
+
+    <string name="title_activity_list_exhibition">Expositions</string>
+    <string name="title_activity_create_exhibition">Créer une exposition</string>
+    <string name="title_activity_card_exhibition">Exposition</string>
+
+    <string name="title_activity_settings">Paramètres</string>
+
+    <string name="title_activity_card_artist">Artiste</string>
+    <string name="title_activity_modify_artist">Modifier un artiste</string>
+    <string name="title_activity_create_artist">Créer un artiste</string>
+    <string name="title_activity_list_artist">Artistes</string>
+
+
+    <!--***********************Menu action bar icon**********************************************-->
+    <string name="addArtist_menu">Ajouter un artiste</string>
+    <string name="search_artist">Chercher un artiste</string>
+    <string name="search_artwork">Chercher une oeuvre</string>
+    <string name="addArtwork_menu">Ajouter une oeuvre</string>
+    <string name="addExhibition_menu">Ajouter une exposition</string>
+    <string name="search_exhibition">Chercher une exposition</string>
+    <string name="addRoom_menu">Ajouter une salle</string>
+    <string name="search_room">Chercher une salle</string>
+    <string name="backToListArtist_menu">Retour à la liste d\'artistes</string>
+    <string name="modifyArtist_menu">Modifier un artiste</string>
+    <string name="deleteArtist_menu">Supprimer un artiste</string>
+    <string name="modifyArtwork_menu">Modifier une oeuvre</string>
+    <string name="deleteArtwork_menu">Supprimer une oeuvre</string>
+    <string name="modifyRoom_menu">Modifier une salle</string>
+    <string name="deleteRoom_menu">Supprimer une salle</string>
+    <string name="deleteExhibition_menu">Supprimer une exposition</string>
+    <string name="cancelartistcreated_menu">Annuler la création d\'un artiste</string>
+    <string name="saveartistcreated_menu">Sauver l\'artiste</string>
+    <string name="cancelartworkcreated_menu">Annuler la création de l\'oeuvre</string>
+    <string name="saveartworkcreated_menu">Sauver l\'oeuvre</string>
+    <string name="cancelroomcreated_menu">Annuler la création de la salle</string>
+    <string name="saveroomcreated_menu">Sauver la salle</string>
+    <string name="cancelexhibitioncreated_menu">Annuler l\'expo</string>
+    <string name="saveexhibitioncreated_menu">Sauver l\'exposition</string>
+    <string name="cancelartistmodified_menu">Annuler l\'artiste modifié</string>
+    <string name="saveartistmodified_menu">Sauver la modification de l\'artiste</string>
+    <string name="cancelartworkmodified_menu">Annuler la modification de l\'oeuvre</string>
+    <string name="saveartworkmodified_menu">Sauver l\'oeuvre</string>
+    <string name="cancelroommodified_menu">Annuler la modification de la salle</string>
+    <string name="saveroommodified_menu">Sauver la salle modifiée</string>
+
+
+    <!--Spinner-->
+    <string-array name="mvt_array">
+        <item>Art abstrait</item>
+        <item>Art concret</item>
+        <item>Art nouveau</item>
+        <item>Baroque</item>
+        <item>Classique</item>
+        <item>Cobra</item>
+        <item>Cubisme</item>
+        <item>Futurisme</item>
+        <item>Gothique</item>
+        <item>Impressionnisme</item>
+        <item>Modernisme</item>
+        <item>Naturalisme</item>
+        <item>Renaissance</item>
+        <item>Rococo</item>
+        <item>Romaniste</item>
+        <item>Surréalisme</item>
+    </string-array>
+
+    <string-array name="type_artwork_array">
+        <item>Peinture</item>
+        <item>Sculpture</item>
+        <item>Gravure</item>
+        <item>Dessin</item>
+    </string-array>
+
+</resources>

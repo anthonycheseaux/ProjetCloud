@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.List_room">
+
+    <item android:id="@+id/parametres_menu"
+        android:title="@string/settings"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id ="@+id/addRoom_menu"
+        android:title="@string/addRoom_menu"
+        android:icon="@mipmap/addblue"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"/>
+
+
+</menu>

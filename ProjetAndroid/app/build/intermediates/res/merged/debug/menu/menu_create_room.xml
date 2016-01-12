@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.Create_room">
+
+    <item android:id="@+id/rooms_menu"
+        android:title="@string/rooms"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/cancelroomcreated_menu"
+        android:title="@string/cancelroomcreated_menu"
+        android:icon="@mipmap/cancelblue"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"/>
+
+
+    <item android:id="@+id/saveroomcreated_menu"
+        android:title="@string/saveroomcreated_menu"
+        android:icon="@mipmap/saveblue"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>
+<!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/menu/menu_create_room.xml -->

@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="hevs.labo.projetandroid.Card_artwork"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_nom_oeuvre"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="55"
+        android:text="Oeuvre NAN"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+        <!--Dans l'action bar désormais-->
+
+      <!--  <ImageButton
+            android:id="@+id/button_back_cardArtwork"
+            style="@style/imageButton"
+            android:src="@mipmap/back" />
+
+        <ImageButton
+            android:id="@+id/button_modify_cardArtwork"
+            style="@style/imageButton"
+            android:src="@mipmap/pencil" />
+
+        <ImageButton
+            android:id="@+id/button_delete_cardArtwork"
+            style="@style/imageButton"
+            android:src="@mipmap/trash" /> -->
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView_artworkCard"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+
+           />
+
+            <TextView
+                android:id="@+id/tv_yearOfCreation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Année NAN"
+                android:textSize="18dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/tv_artistCardArtwork"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Artiste NAN"
+                android:textSize="18dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/tv_styleCardArtwork"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Type NAN"
+                android:textSize="18dp"
+                android:layout_marginBottom="15dp"/>
+
+
+            <TextView
+                android:id="@+id/tv_descriptionCardArtwork"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Description NAN"
+                android:textSize="18dp"
+                android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/layout/activity_card_artwork.xml -->

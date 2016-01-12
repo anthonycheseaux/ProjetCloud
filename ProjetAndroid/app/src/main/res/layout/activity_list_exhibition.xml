@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hevs.labo.projetandroid.List_exhibition"
+    android:background="@drawable/back"
+   >
+
+    <!--1ère ligne contenant le titre Artistes, le SearchView ainsi que l'imageButton "add"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_title_exhibition"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:text="@string/exhibitions"
+            android:textSize="30dp"
+            android:typeface="serif"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <!--Dans Action Bar désormais-->
+
+      <!--  <SearchView
+            android:id="@+id/edit_text_rechercheArtiste"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:hint="recherche"
+            tools:ignore="NewApi"
+
+            />
+
+        <ImageButton
+            android:id="@+id/button_addExhibition"
+            style="@style/imageButton"
+            android:onClick="addExhibition"
+            android:src="@mipmap/add"/> -->
+
+    </LinearLayout>
+
+
+    <!--ligne titre-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/titre_list_exhibition"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textColor="#000010"
+            android:text="@string/room"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/titre_list_artist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textColor="#000010"
+            android:text="@string/artist"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/titre_list_artwork"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textColor="#000010"
+            android:text="@string/artwork"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <!--  <CheckedTextView
+              android:id="@+id/list_artiste"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+          </CheckedTextView> -->
+
+        <ListView
+            android:id="@+id/list_exposition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+    </ScrollView>
+
+</LinearLayout>

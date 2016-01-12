@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.Card_artwork">
+
+    <item android:id="@+id/list_artwork_menu"
+        android:title="@string/artworks"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/modifyArtwork_menu"
+        android:title="@string/modifyArtwork_menu"
+        android:icon="@mipmap/modifyblue"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"/>
+
+
+    <item android:id="@+id/deleteArtwork_menu"
+        android:title="@string/deleteArtwork_menu"
+        android:icon="@mipmap/deleteboxblue"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
+<!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/menu/menu_card_artwork.xml -->

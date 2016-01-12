@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.Modify_artist">
+
+    <item android:id="@+id/artist_menu"
+        android:title="@string/artists"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/saveartistmodified_menu"
+        android:title="@string/saveartistmodified_menu"
+        android:icon="@mipmap/saveblue"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
+<!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/menu/menu_modify_artist.xml -->

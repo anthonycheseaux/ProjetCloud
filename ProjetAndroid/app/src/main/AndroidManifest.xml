@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hevs.labo.projetandroid">
+
+    <uses-sdk
+        android:maxSdkVersion="14"
+        android:minSdkVersion="5"
+        android:targetSdkVersion="14" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- Permission to pick the picture into the gallery, it for the method in the class Create_Artist or Create_Artwork -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Create_artist"
+            android:label="@string/title_activity_create_artist"
+            android:parentActivityName=".List_artist"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Card_artist"
+            android:label="@string/title_activity_card_artist"
+            android:parentActivityName=".List_artist"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".List_artist"
+            android:label="@string/title_activity_list_artist"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".List_artwork"
+            android:label="@string/title_activity_list_artwork"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Modify_artist"
+            android:label="@string/title_activity_modify_artist"
+            android:parentActivityName=".Card_artist"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Card_artwork"
+            android:label="@string/title_activity_card_artwork"
+            android:parentActivityName=".List_artwork"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Modify_artwork"
+            android:label="@string/title_activity_modify_artwork"
+            android:parentActivityName=".Card_artwork"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Create_artwork"
+            android:label="@string/title_activity_create_artwork"
+            android:parentActivityName=".List_artwork"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".List_room"
+            android:label="@string/title_activity_list_room"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hevs.labo.projetandroid.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Create_room"
+            android:label="@string/title_activity_create_room"
+            android:parentActivityName=".List_room"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Card_room"
+            android:label="@string/title_activity_card_room"
+            android:parentActivityName=".List_room"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Modify_room"
+            android:label="@string/title_activity_modify_room"
+            android:parentActivityName=".Card_room"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".List_exhibition"
+            android:label="@string/title_activity_list_exhibition"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Create_exhibition"
+            android:label="@string/title_activity_create_exhibition"
+            android:parentActivityName=".List_exhibition"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Card_exhibition"
+            android:label="@string/title_activity_card_exhibition"
+            android:parentActivityName=".List_exhibition"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

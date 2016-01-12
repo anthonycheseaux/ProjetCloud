@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string-array name="mvt_array">
+        <item>Art abstrait</item>
+        <item>Art concret</item>
+        <item>Art nouveau</item>
+        <item>Baroque</item>
+        <item>Classique</item>
+        <item>Cobra</item>
+        <item>Cubisme</item>
+        <item>Futurisme</item>
+        <item>Gothique</item>
+        <item>Impressionnisme</item>
+        <item>Modernisme</item>
+        <item>Naturalisme</item>
+        <item>Renaissance</item>
+        <item>Rococo</item>
+        <item>Romaniste</item>
+        <item>Surréalisme</item>
+    </string-array>
+    <string-array name="type_artwork_array">
+        <item>Peinture</item>
+        <item>Sculpture</item>
+        <item>Gravure</item>
+        <item>Dessin</item>
+    </string-array>
+    <!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-fr/values-fr.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Plus d\'options"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"OK"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DÉSACTIVÉ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVÉ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="addArtist_menu">Ajouter un artiste</string>
+    <string name="addArtwork_menu">Ajouter une oeuvre</string>
+    <string name="addExhibition_menu">Ajouter une exposition</string>
+    <string name="addRoom_menu">Ajouter une salle</string>
+    <string name="app_name">Galerie d\'art</string>
+    <string name="artexpose">Exposé</string>
+    <string name="artist">Artiste</string>
+    <string name="artistAdded">Artiste ajouté</string>
+    <string name="artistDeleted">Artiste supprimé</string>
+    <string name="artistModified">Artiste modifié</string>
+    <string name="artist_exposed">Artistes exposés : </string>
+    <string name="artists">Artistes</string>
+    <string name="artwork">Oeuvre d\'art</string>
+    <string name="artworkAdded">Oeuvre ajoutée</string>
+    <string name="artworkDeleted">Oeuvre supprimée</string>
+    <string name="artworkModified">Oeuvre modifiée</string>
+    <string name="artwork_exposed">Oeuvres exposées : </string>
+    <string name="artworks">Oeuvres d\'art</string>
+    <string name="backToListArtist_menu">Retour à la liste d\'artistes</string>
+    <string name="birthdate">Naissance</string>
+    <string name="cancelartistcreated_menu">Annuler la création d\'un artiste</string>
+    <string name="cancelartistmodified_menu">Annuler l\'artiste modifié</string>
+    <string name="cancelartworkcreated_menu">Annuler la création de l\'oeuvre</string>
+    <string name="cancelartworkmodified_menu">Annuler la modification de l\'oeuvre</string>
+    <string name="cancelexhibitioncreated_menu">Annuler l\'expo</string>
+    <string name="cancelroomcreated_menu">Annuler la création de la salle</string>
+    <string name="cancelroommodified_menu">Annuler la modification de la salle</string>
+    <string name="create">Créer</string>
+    <string name="create_artist">Créer un artiste</string>
+    <string name="create_artwork">Créer un oeuvre</string>
+    <string name="create_room">Créer une salle</string>
+    <string name="creation_year">Date de création</string>
+    <string name="deathdate">Mort</string>
+    <string name="deleteArtist_menu">Supprimer un artiste</string>
+    <string name="deleteArtwork_menu">Supprimer une oeuvre</string>
+    <string name="deleteExhibition_menu">Supprimer une exposition</string>
+    <string name="deleteRoom_menu">Supprimer une salle</string>
+    <string name="description">Description</string>
+    <string name="english">Anglais</string>
+    <string name="exhibition">Exposition</string>
+    <string name="exhibitionAdded">Exposition ajoutée</string>
+    <string name="exhibitionDeleted">Exposition supprimée</string>
+    <string name="exhibitions">Exposition</string>
+    <string name="exposed">Exposé</string>
+    <string name="firstname">Prénom</string>
+    <string name="french">Français</string>
+    <string name="gallery_state">Etat actuel de la galerie</string>
+    <string name="home">Accueil</string>
+    <string name="language">Langage</string>
+    <string name="lastname">Nom</string>
+    <string name="list">Liste</string>
+    <string name="manage">Gérer</string>
+    <string name="measure">m2</string>
+    <string name="modify">Modifier</string>
+    <string name="modifyArtist_menu">Modifier un artiste</string>
+    <string name="modifyArtwork_menu">Modifier une oeuvre</string>
+    <string name="modifyRoom_menu">Modifier une salle</string>
+    <string name="modify_artist">Modifier un artiste</string>
+    <string name="modify_artwork">Modifier une oeuvre</string>
+    <string name="modify_room">Modifier une salle</string>
+    <string name="movement">Mouvement</string>
+    <string name="name">Nom</string>
+    <string name="nan">nan</string>
+    <string name="noImagePicked">Vous n\'avez pas choisi d\'image</string>
+    <string name="occupated">Occupée</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="room">Salle</string>
+    <string name="roomAdded">Salle ajoutée</string>
+    <string name="roomDeleted">Salle supprimée</string>
+    <string name="roomModified">Salle modifiée</string>
+    <string name="room_used">Salles occupées : </string>
+    <string name="rooms">Salles</string>
+    <string name="save">Sauver</string>
+    <string name="saveartistcreated_menu">Sauver l\'artiste</string>
+    <string name="saveartistmodified_menu">Sauver la modification de l\'artiste</string>
+    <string name="saveartworkcreated_menu">Sauver l\'oeuvre</string>
+    <string name="saveartworkmodified_menu">Sauver l\'oeuvre</string>
+    <string name="saveexhibitioncreated_menu">Sauver l\'exposition</string>
+    <string name="saveroomcreated_menu">Sauver la salle</string>
+    <string name="saveroommodified_menu">Sauver la salle modifiée</string>
+    <string name="search_artist">Chercher un artiste</string>
+    <string name="search_artwork">Chercher une oeuvre</string>
+    <string name="search_exhibition">Chercher une exposition</string>
+    <string name="search_room">Chercher une salle</string>
+    <string name="settings">Paramètres</string>
+    <string name="size">Taille</string>
+    <!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-fr/values-fr.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="stgWentWrong">Quelque chose s\'est mal passé</string>
+    <string name="title_activity_card_artist">Artiste</string>
+    <string name="title_activity_card_artwork">Oeuvre d\'art</string>
+    <string name="title_activity_card_exhibition">Exposition</string>
+    <string name="title_activity_card_room">Salle</string>
+    <string name="title_activity_create_artist">Créer un artiste</string>
+    <string name="title_activity_create_artwork">Créer une oeuvre</string>
+    <string name="title_activity_create_exhibition">Créer une exposition</string>
+    <string name="title_activity_create_room">Créer une salle</string>
+    <string name="title_activity_list_artist">Artistes</string>
+    <string name="title_activity_list_artwork">Oeuvres d\'art</string>
+    <string name="title_activity_list_exhibition">Expositions</string>
+    <string name="title_activity_list_room">Salles</string>
+    <string name="title_activity_modify_artist">Modifier un artiste</string>
+    <string name="title_activity_modify_artwork">Modifier oeuvre</string>
+    <string name="title_activity_modify_room">Modifier une salle</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="type">Type</string>
+</resources>

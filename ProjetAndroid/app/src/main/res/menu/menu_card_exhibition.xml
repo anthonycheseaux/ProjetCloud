@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.Card_exhibition">
+
+    <item android:id="@+id/list_exhibition_menu"
+        android:title="@string/exhibitions"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/deleteExhibition_menu"
+        android:title="@string/deleteExhibition_menu"
+        android:icon="@mipmap/deleteboxblue"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

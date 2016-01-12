@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hevs.labo.projetandroid.Create_artwork"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+
+    <!--1ère ligne-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_createArtwork"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/create"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:gravity="center"/>
+
+        <!--Dans l'Action bar désormais-->
+
+      <!--  <ImageButton
+            android:id="@+id/button_cancelCreateArtwork"
+            style="@style/imageButton"
+            android:src="@mipmap/cancel" />
+
+        <ImageButton
+            android:id="@+id/button_saveCreateArtwork"
+            style="@style/imageButton"
+            android:src="@mipmap/save" /> -->
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:text="@string/name"
+                android:id="@+id/textView_nomArtworkCreate"
+                android:textColor="#000010"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_nameArtworkCreate"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:text="@string/artist"
+                android:id="@+id/textView_ArtistArtworkCreate"
+                android:textColor="#000010"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner_ArtistArtworkCreated"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="wrap_content"
+                android:text="@string/creation_year"
+                android:id="@+id/textView_RealisationArtworkCreate"
+                android:textColor="#000010"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <EditText
+                android:layout_weight="60"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_realisationArtworkCreate"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="40"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/type"
+                android:id="@+id/textView_typeArtworkCrete"
+                android:textColor="#000010"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner_typeArtworkCreate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="40"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:id="@+id/textView_descriptionArtworkCreate"
+                android:textColor="#000010"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <EditText
+                android:layout_weight="60"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_descriptionArtworkCreate"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_photoArtworkCreate"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center" />
+
+            <ImageButton
+                android:id="@+id/imageButton_btnDownloadArtworkCreate"
+                style="@style/imageButton"
+                android:src="@mipmap/download"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

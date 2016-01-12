@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.Create_exhibition">
+
+    <item android:id="@+id/exposition_menu"
+        android:title="@string/exhibitions"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/cancelexhibitionreated_menu"
+        android:title="@string/cancelexhibitioncreated_menu"
+        android:icon="@mipmap/cancelblue"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"/>
+
+
+    <item android:id="@+id/saveexhibitioncreated_menu"
+        android:title="@string/saveexhibitioncreated_menu"
+        android:icon="@mipmap/saveblue"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu><!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/menu/menu_create_exhibition.xml -->

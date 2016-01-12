@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.Card_artist">
+
+    <item android:id="@+id/artist_menu"
+        android:title="@string/artists"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/modifyArtist_menu"
+        android:title="@string/modifyArtist_menu"
+        android:icon="@mipmap/modifyblue"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"/>
+
+
+    <item android:id="@+id/deleteArtist_menu"
+        android:title="@string/deleteArtist_menu"
+        android:icon="@mipmap/deleteboxblue"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>
+<!-- From: file:/C:/Users/Anthony/AndroidStudioProjects/ProjetCloud/ProjetAndroid/app/src/main/res/menu/menu_card_artist.xml -->

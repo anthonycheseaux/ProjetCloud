@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hevs.labo.projetandroid.Create_artist">
+
+    <item android:id="@+id/artist_menu"
+        android:title="@string/artists"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/cancelartistcreated_menu"
+        android:title="@string/cancelartistcreated_menu"
+        android:icon="@mipmap/cancelblue"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"/>
+
+
+    <item android:id="@+id/saveartistcreated_menu"
+        android:title="@string/saveartistcreated_menu"
+        android:icon="@mipmap/saveblue"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>

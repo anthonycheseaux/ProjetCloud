@@ -1,0 +1,269 @@
+{
+ "kind": "discovery#rpcDescription",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/F8dVIO8GEHdynp-k2A7-1U-gTgo\"",
+ "discoveryVersion": "v1",
+ "id": "artistApi:v1",
+ "name": "artistApi",
+ "version": "v1",
+ "description": "This is an API",
+ "ownerDomain": "backend.projetandroid.labo.hevs",
+ "ownerName": "backend.projetandroid.labo.hevs",
+ "icons": {
+  "x16": "http://www.google.com/images/icons/product/search-16.gif",
+  "x32": "http://www.google.com/images/icons/product/search-32.gif"
+ },
+ "protocol": "rpc",
+ "rootUrl": "https://ArtGallery-2016.appspot.com/_ah/api/",
+ "rpcUrl": "https://ArtGallery-2016.appspot.com/_ah/api/rpc",
+ "rpcPath": "/_ah/api/rpc",
+ "parameters": {
+  "alt": {
+   "type": "string",
+   "description": "Data format for the response.",
+   "default": "json",
+   "enum": [
+    "json"
+   ],
+   "enumDescriptions": [
+    "Responses with Content-Type of application/json"
+   ],
+   "location": "query"
+  },
+  "fields": {
+   "type": "string",
+   "description": "Selector specifying which fields to include in a partial response.",
+   "location": "query"
+  },
+  "key": {
+   "type": "string",
+   "description": "API key. Your API key identifies your project and provides you with API access, quota, and reports. Required unless you provide an OAuth 2.0 token.",
+   "location": "query"
+  },
+  "oauth_token": {
+   "type": "string",
+   "description": "OAuth 2.0 token for the current user.",
+   "location": "query"
+  },
+  "prettyPrint": {
+   "type": "boolean",
+   "description": "Returns response with indentations and line breaks.",
+   "default": "true",
+   "location": "query"
+  },
+  "quotaUser": {
+   "type": "string",
+   "description": "Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.",
+   "location": "query"
+  },
+  "userIp": {
+   "type": "string",
+   "description": "IP address of the site where the request originates. Use this if you want to enforce per-user limits.",
+   "location": "query"
+  }
+ },
+ "auth": {
+  "oauth2": {
+   "scopes": {
+    "https://www.googleapis.com/auth/userinfo.email": {
+     "description": "View your email address"
+    }
+   }
+  }
+ },
+ "schemas": {
+  "Artist": {
+   "id": "Artist",
+   "type": "object",
+   "properties": {
+    "birth": {
+     "type": "string"
+    },
+    "death": {
+     "type": "string"
+    },
+    "exposed": {
+     "type": "boolean"
+    },
+    "firstname": {
+     "type": "string"
+    },
+    "id": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "image_path": {
+     "type": "string"
+    },
+    "lastname": {
+     "type": "string"
+    },
+    "movement": {
+     "type": "string"
+    },
+    "pseudo": {
+     "type": "string"
+    }
+   }
+  },
+  "CollectionResponse_Artist": {
+   "id": "CollectionResponse_Artist",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "Artist"
+     }
+    },
+    "nextPageToken": {
+     "type": "string"
+    }
+   }
+  }
+ },
+ "methods": {
+  "artistApi.get": {
+   "id": "artistApi.get",
+   "allowGet": true,
+   "parameters": {
+    "Id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    }
+   },
+   "parameterOrder": [
+    "Id"
+   ],
+   "returns": {
+    "$ref": "Artist"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "artistApi.insert": {
+   "id": "artistApi.insert",
+   "parameters": {
+    "resource": {
+     "$ref": "Artist"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "Artist"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "artistApi.list": {
+   "id": "artistApi.list",
+   "allowGet": true,
+   "parameters": {
+    "cursor": {
+     "type": "string"
+    },
+    "limit": {
+     "type": "integer",
+     "format": "int32"
+    }
+   },
+   "returns": {
+    "$ref": "CollectionResponse_Artist"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "artistApi.patch": {
+   "id": "artistApi.patch",
+   "supportsPatch": true,
+   "parameters": {
+    "Id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    },
+    "birth": {
+     "type": "string"
+    },
+    "death": {
+     "type": "string"
+    },
+    "exposed": {
+     "type": "boolean"
+    },
+    "firstname": {
+     "type": "string"
+    },
+    "id": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "image_path": {
+     "type": "string"
+    },
+    "lastname": {
+     "type": "string"
+    },
+    "movement": {
+     "type": "string"
+    },
+    "pseudo": {
+     "type": "string"
+    }
+   },
+   "parameterOrder": [
+    "Id"
+   ],
+   "returns": {
+    "$ref": "Artist"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "artistApi.remove": {
+   "id": "artistApi.remove",
+   "parameters": {
+    "Id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    }
+   },
+   "parameterOrder": [
+    "Id"
+   ],
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "artistApi.update": {
+   "id": "artistApi.update",
+   "parameters": {
+    "Id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    },
+    "resource": {
+     "$ref": "Artist"
+    }
+   },
+   "parameterOrder": [
+    "resource",
+    "Id"
+   ],
+   "returns": {
+    "$ref": "Artist"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  }
+ }
+}

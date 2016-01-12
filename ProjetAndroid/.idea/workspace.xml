@@ -10,81 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="193f6adf-75df-4fbc-b63a-3df1494b16a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Builder.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Builder.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artwork.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artwork.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_exhibition.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_exhibition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_room.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artwork.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artwork.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_exhibition.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_exhibition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_room.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/List_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/List_artist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/List_artwork.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/List_artwork.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/List_exhibition.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/List_exhibition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/List_room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/List_room.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artwork.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artwork.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_room.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/myApi/MyApi$Builder.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/myApi/MyApi$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/myApi/MyApi.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/myApi/MyApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Builder.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/ArtistDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/ArtistDataSource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Settings.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Settings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/libs/backend-android-endpoints.jar" afterPath="$PROJECT_DIR$/backend/build/libs/backend-android-endpoints.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/model/Artist.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/model/Artist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiRequestInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiScopes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/model/Artwork.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/model/Artwork.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiRequestInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiScopes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/model/CollectionResponseArtist.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/model/CollectionResponseArtist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/model/CollectionResponseArtwork.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/model/CollectionResponseArtwork.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/model/CollectionResponseRoom.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/model/CollectionResponseRoom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiRequestInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiScopes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/model/MyBean.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/model/MyBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/hevs/labo/projetandroid/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/hevs/labo/projetandroid/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/model/Room.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/model/Room.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiRequestInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProjetAndroid.iws" />
@@ -113,11 +51,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5743652">
-              <caret line="114" column="35" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndpointsAsyncTaskHello.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="5" selection-start-line="19" selection-start-column="37" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndpointsAsyncTaskArtist.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.121323526">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArtistDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -2274,8 +2246,10 @@
         <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtworkEndpoint.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/RoomEndpoint.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java" />
       </list>
     </option>
   </component>
@@ -2376,6 +2350,54 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetAndroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetandroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetAndroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetandroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -2387,9 +2409,9 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AndroidProject-master" />
     <property name="dynamic.classpath" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23" />
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -2617,7 +2639,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32906976" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2783,21 +2805,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82466745">
-          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="5" selection-start-line="19" selection-start-column="37" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1404#1737#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5743652">
-          <caret line="114" column="35" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.121323526">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

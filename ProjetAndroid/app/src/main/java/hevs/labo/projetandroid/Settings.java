@@ -15,6 +15,9 @@ import android.widget.RadioButton;
 
 import java.util.Locale;
 
+import hevs.labo.projetandroid.backend.artistApi.model.Artist;
+import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
+
 public class Settings extends AppCompatActivity {
 
     Locale myLocale;
@@ -112,7 +115,12 @@ public class Settings extends AppCompatActivity {
     }
 
     public void sync(View view){
-        new EndpointsAsyncTaskHello().execute(new Pair<Context, String>(this, "Manfred"));
+        //new EndpointsAsyncTaskHello().execute(new Pair<Context, String>(this, "Manfred"));
+        ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
+        Artist artist = ads.getArtistByIdBackend(1);
+
+        new EndpointsAsyncTaskArtist().execute(new Pair<Context, Artist>(this, artist));
+
     }
 
     public void setLocale(String lang) {

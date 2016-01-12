@@ -72,6 +72,30 @@ public class ArtistDataSource {
         return artist;
     }
 
+    public hevs.labo.projetandroid.backend.artistApi.model.Artist getArtistByIdBackend(long id) {
+        String sql = "SELECT * FROM " + ArtGalleryContract.Artist.TABLE_ARTIST +
+                " WHERE " + ArtGalleryContract.Artist.KEY_ID + " = " + id;
+
+        Cursor cursor = this.db.rawQuery(sql, null);
+
+        if(cursor != null){
+            cursor.moveToFirst();
+        }
+
+        hevs.labo.projetandroid.backend.artistApi.model.Artist artist = new hevs.labo.projetandroid.backend.artistApi.model.Artist();
+        artist.setId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_ID)));
+        artist.setFirstname(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_FIRSTNAME)));
+        artist.setLastname(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_LASTNAME)));
+        artist.setPseudo(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_PSEUDO)));
+        artist.setBirth(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_BIRTH)));
+        artist.setDeath(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_DEATH)));
+        artist.setMovement(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_MOVEMENT)));
+        artist.setImagePath(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_IMAGE_PATH)));
+        artist.setExposed(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_EXPOSED)) == 1);
+
+        return artist;
+    }
+
     public Artist getArtistByName(String name){
         String sql = "SELECT * FROM " + ArtGalleryContract.Artist.TABLE_ARTIST +
                 " WHERE " + ArtGalleryContract.Artist.KEY_FIRSTNAME + " = " + name;

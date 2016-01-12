@@ -15,14 +15,14 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 		INJECTED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml
 uses-sdk
 ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:5:5-8:41
-MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 	android:maxSdkVersion
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:6:9-35
 	android:targetSdkVersion
@@ -65,13 +65,13 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:22:22-72
 application
 ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:24:5-139:19
-MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 	android:allowBackup
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:25:9-35
 	android:icon
@@ -99,7 +99,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:36:27-74
 activity#hevs.labo.projetandroid.Create_artist
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:39:9-44:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:39:9-44:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:43:13-49
 	android:label
@@ -111,7 +111,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:40:13-42
 activity#hevs.labo.projetandroid.Card_artist
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:45:9-50:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:45:9-50:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:49:13-49
 	android:label
@@ -123,7 +123,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:46:13-40
 activity#hevs.labo.projetandroid.List_artist
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:51:9-56:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:51:9-56:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:55:13-49
 	android:label
@@ -135,7 +135,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:52:13-40
 activity#hevs.labo.projetandroid.List_artwork
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:57:9-62:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:57:9-62:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:61:13-49
 	android:label
@@ -147,7 +147,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:58:13-41
 activity#hevs.labo.projetandroid.Modify_artist
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:63:9-68:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:63:9-68:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:67:13-49
 	android:label
@@ -159,7 +159,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:64:13-42
 activity#hevs.labo.projetandroid.Card_artwork
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:69:9-74:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:69:9-74:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:73:13-49
 	android:label
@@ -171,7 +171,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:70:13-41
 activity#hevs.labo.projetandroid.Modify_artwork
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:75:9-80:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:75:9-80:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:79:13-49
 	android:label
@@ -183,7 +183,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:76:13-43
 activity#hevs.labo.projetandroid.Create_artwork
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:81:9-86:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:81:9-86:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:85:13-49
 	android:label
@@ -213,7 +213,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:94:17-63
 activity#hevs.labo.projetandroid.Create_room
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:97:9-102:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:97:9-102:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:101:13-49
 	android:label
@@ -225,7 +225,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:98:13-40
 activity#hevs.labo.projetandroid.Card_room
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:103:9-108:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:103:9-108:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:107:13-49
 	android:label
@@ -237,7 +237,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:104:13-38
 activity#hevs.labo.projetandroid.Modify_room
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:109:9-114:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:109:9-114:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:113:13-49
 	android:label
@@ -249,7 +249,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:110:13-40
 activity#hevs.labo.projetandroid.Settings
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:115:9-120:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:115:9-120:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:119:13-49
 	android:label
@@ -261,7 +261,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:116:13-37
 activity#hevs.labo.projetandroid.List_exhibition
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:121:9-126:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:121:9-126:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:125:13-49
 	android:label
@@ -273,7 +273,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:122:13-44
 activity#hevs.labo.projetandroid.Create_exhibition
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:127:9-132:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:127:9-132:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:131:13-49
 	android:label
@@ -285,7 +285,7 @@ ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\
 	android:name
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:128:13-46
 activity#hevs.labo.projetandroid.Card_exhibition
-ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:133:9-138:56
+ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:133:9-138:47
 	android:screenOrientation
 		ADDED from C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\AndroidManifest.xml:137:13-49
 	android:label

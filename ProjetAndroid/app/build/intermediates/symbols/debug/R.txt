@@ -1545,15 +1545,14 @@ int styleable DrawerArrowToggle_drawableSize 2
 int styleable DrawerArrowToggle_gapBetweenBars 3
 int styleable DrawerArrowToggle_spinBars 1
 int styleable DrawerArrowToggle_thickness 7
-int[] styleable FloatingActionButton { 0x010100d4, 0x7f01001a, 0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b, 0x7f01010e, 0x7f01010f }
-int styleable FloatingActionButton_android_background 0
-int styleable FloatingActionButton_backgroundTint 6
-int styleable FloatingActionButton_backgroundTintMode 7
-int styleable FloatingActionButton_borderWidth 5
-int styleable FloatingActionButton_elevation 1
-int styleable FloatingActionButton_fabSize 3
-int styleable FloatingActionButton_pressedTranslationZ 4
-int styleable FloatingActionButton_rippleColor 2
+int[] styleable FloatingActionButton { 0x7f01001a, 0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b, 0x7f01010e, 0x7f01010f }
+int styleable FloatingActionButton_backgroundTint 5
+int styleable FloatingActionButton_backgroundTintMode 6
+int styleable FloatingActionButton_borderWidth 4
+int styleable FloatingActionButton_elevation 0
+int styleable FloatingActionButton_fabSize 2
+int styleable FloatingActionButton_pressedTranslationZ 3
+int styleable FloatingActionButton_rippleColor 1
 int[] styleable ForegroundLinearLayout { 0x01010109, 0x01010200, 0x7f01004c }
 int styleable ForegroundLinearLayout_android_foreground 0
 int styleable ForegroundLinearLayout_android_foregroundGravity 1

@@ -4595,7 +4595,6 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #FloatingActionButton_backgroundTint hevs.labo.projetandroid:backgroundTint}</code></td><td></td></tr>
            <tr><td><code>{@link #FloatingActionButton_backgroundTintMode hevs.labo.projetandroid:backgroundTintMode}</code></td><td></td></tr>
            <tr><td><code>{@link #FloatingActionButton_borderWidth hevs.labo.projetandroid:borderWidth}</code></td><td></td></tr>
@@ -4604,7 +4603,6 @@ containing a value of this type.
            <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ hevs.labo.projetandroid:pressedTranslationZ}</code></td><td></td></tr>
            <tr><td><code>{@link #FloatingActionButton_rippleColor hevs.labo.projetandroid:rippleColor}</code></td><td></td></tr>
            </table>
-           @see #FloatingActionButton_android_background
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
            @see #FloatingActionButton_borderWidth
@@ -4614,15 +4612,9 @@ containing a value of this type.
            @see #FloatingActionButton_rippleColor
          */
         public static final int[] FloatingActionButton = {
-            0x010100d4, 0x7f01001a, 0x7f010048, 0x7f010049,
-            0x7f01004a, 0x7f01004b, 0x7f01010e, 0x7f01010f
+            0x7f01001a, 0x7f010048, 0x7f010049, 0x7f01004a,
+            0x7f01004b, 0x7f01010e, 0x7f01010f
         };
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#background}
-          attribute's value can be found in the {@link #FloatingActionButton} array.
-          @attr name android:background
-        */
-        public static final int FloatingActionButton_android_background = 0;
         /**
           <p>This symbol is the offset where the {@link hevs.labo.projetandroid.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -4637,7 +4629,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name hevs.labo.projetandroid:backgroundTint
         */
-        public static final int FloatingActionButton_backgroundTint = 6;
+        public static final int FloatingActionButton_backgroundTint = 5;
         /**
           <p>This symbol is the offset where the {@link hevs.labo.projetandroid.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -4657,7 +4649,7 @@ containing a value of this type.
 </table>
           @attr name hevs.labo.projetandroid:backgroundTintMode
         */
-        public static final int FloatingActionButton_backgroundTintMode = 7;
+        public static final int FloatingActionButton_backgroundTintMode = 6;
         /**
           <p>This symbol is the offset where the {@link hevs.labo.projetandroid.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -4673,7 +4665,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name hevs.labo.projetandroid:borderWidth
         */
-        public static final int FloatingActionButton_borderWidth = 5;
+        public static final int FloatingActionButton_borderWidth = 4;
         /**
           <p>This symbol is the offset where the {@link hevs.labo.projetandroid.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -4689,7 +4681,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name hevs.labo.projetandroid:elevation
         */
-        public static final int FloatingActionButton_elevation = 1;
+        public static final int FloatingActionButton_elevation = 0;
         /**
           <p>This symbol is the offset where the {@link hevs.labo.projetandroid.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -4706,7 +4698,7 @@ containing a value of this type.
 </table>
           @attr name hevs.labo.projetandroid:fabSize
         */
-        public static final int FloatingActionButton_fabSize = 3;
+        public static final int FloatingActionButton_fabSize = 2;
         /**
           <p>This symbol is the offset where the {@link hevs.labo.projetandroid.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -4722,7 +4714,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name hevs.labo.projetandroid:pressedTranslationZ
         */
-        public static final int FloatingActionButton_pressedTranslationZ = 4;
+        public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
           <p>This symbol is the offset where the {@link hevs.labo.projetandroid.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -4737,7 +4729,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name hevs.labo.projetandroid:rippleColor
         */
-        public static final int FloatingActionButton_rippleColor = 2;
+        public static final int FloatingActionButton_rippleColor = 1;
         /** Attributes that can be used with a ForegroundLinearLayout.
            <p>Includes the following attributes:</p>
            <table>

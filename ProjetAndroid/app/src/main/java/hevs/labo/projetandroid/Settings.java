@@ -13,11 +13,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.RadioButton;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
 import hevs.labo.projetandroid.backend.artistApi.model.Artist;
+import hevs.labo.projetandroid.backend.artworkApi.model.Artwork;
+import hevs.labo.projetandroid.backend.roomApi.model.Room;
 import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
+import hevs.labo.projetandroid.database.adapter.ArtworkDataSource;
+import hevs.labo.projetandroid.database.adapter.RoomDataSource;
 
 public class Settings extends AppCompatActivity {
 
@@ -117,10 +122,22 @@ public class Settings extends AppCompatActivity {
 
     public void sync(View view){
         //new EndpointsAsyncTaskHello().execute(new Pair<Context, String>(this, "Manfred"));
+
+        List<List> list = new ArrayList<>();
+
         ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
         List<Artist> artistList = ads.getAllArtistsBackend();
+        list.add(artistList);
 
-        new EndpointsAsyncTaskArtist().execute(new Pair<Context, List<Artist>>(this, artistList));
+        ArtworkDataSource awds = new ArtworkDataSource(getApplicationContext());
+        List<Artwork> artworkList = awds.getAllArtworksBackend();
+        list.add(artworkList);
+
+        RoomDataSource rds = new RoomDataSource(getApplicationContext());
+        List<Room> roomList = rds.getAllRoomsBackend();
+        list.add(roomList);
+
+        new EndpointsAsyncTask().execute(new Pair<Context, List<List>>(this, list));
 
         //new EndpointAsyncTaskArtistGet().execute(new Pair<Context, String>(this, "un artiste"));
     }

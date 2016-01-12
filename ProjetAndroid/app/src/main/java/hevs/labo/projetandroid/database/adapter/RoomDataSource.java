@@ -97,6 +97,30 @@ public class RoomDataSource {
         return rooms;
     }
 
+    public List<hevs.labo.projetandroid.backend.roomApi.model.Room> getAllRoomsBackend(){
+        List<hevs.labo.projetandroid.backend.roomApi.model.Room> rooms = new ArrayList<>();
+
+        String sql = "SELECT * FROM " + ArtGalleryContract.Room.TABLE_ROOM + " ORDER BY " +ArtGalleryContract.Room.KEY_NAME;
+
+        Cursor cursor = this.db.rawQuery(sql, null);
+
+        if(cursor.moveToFirst()){
+            do {
+                hevs.labo.projetandroid.backend.roomApi.model.Room room = new hevs.labo.projetandroid.backend.roomApi.model.Room();
+                room.setId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_ID)));
+                room.setName(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_NAME)));
+                room.setSize(cursor.getDouble(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_SIZE)));
+                room.setSelected(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_OCCUPATED)) != 0);
+                room.setImagePath(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_IMAGE_PATH)));
+
+                rooms.add(room);
+
+            }while (cursor.moveToNext());
+        }
+
+        return rooms;
+    }
+
 
     /**
      * Update a room

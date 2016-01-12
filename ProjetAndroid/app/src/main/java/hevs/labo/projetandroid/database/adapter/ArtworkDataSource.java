@@ -137,6 +137,35 @@ public class ArtworkDataSource {
         return artworks;
     }
 
+    public List<hevs.labo.projetandroid.backend.artworkApi.model.Artwork> getAllArtworksBackend() {
+        List<hevs.labo.projetandroid.backend.artworkApi.model.Artwork> artworks = new ArrayList<hevs.labo.projetandroid.backend.artworkApi.model.Artwork>();
+        String sql = "SELECT * FROM " + ArtGalleryContract.Artwork.TABLE_ARTWORK +
+                " ORDER BY " + ArtGalleryContract.Artwork.KEY_NAME;
+
+        Cursor cursor = this.db.rawQuery(sql, null);
+
+        if(cursor.moveToFirst()) {
+            do {
+                hevs.labo.projetandroid.backend.artworkApi.model.Artwork artwork = new hevs.labo.projetandroid.backend.artworkApi.model.Artwork();
+
+                artwork.setId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_ID)));
+                artwork.setName(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_NAME)));
+                artwork.setType(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_TYPE)));
+                artwork.setCreationYear(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_CREATION_YEAR)));
+                artwork.setDescription(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_DESCRIPTION)));
+                artwork.setImagePath(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_IMAGE_PATH)));
+                artwork.setExposed(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_EXPOSED)) == 1);
+                artwork.setForeignKeyArtistId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_ARTIST_ID)));
+                artwork.setForeignKeyRoomId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_ROOM_ID)));
+
+                artworks.add(artwork);
+            }
+            while(cursor.moveToNext());
+        }
+
+        return artworks;
+    }
+
 
     public List<Artwork> getArtworksExposed() {
         List<Artwork> artworks = new ArrayList<Artwork>();

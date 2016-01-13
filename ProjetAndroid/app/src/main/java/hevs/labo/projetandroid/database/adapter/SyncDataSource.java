@@ -44,6 +44,7 @@ public class SyncDataSource {
      * Get sync by objetc id
      */
     public Sync getSyncByObjectId(long object_id) {
+        List<Sync> syncList = new ArrayList<Sync>();
         String sql = "SELECT * FROM " + ArtGalleryContract.Sync.TABLE_SYNC
                 + " WHERE " + ArtGalleryContract.Sync.KEY_OBJECT_ID + " = " + object_id;
 
@@ -58,6 +59,7 @@ public class SyncDataSource {
         sync.setObjectId(cursor.getLong(cursor.getColumnIndex(ArtGalleryContract.Sync.KEY_OBJECT_ID)));
         sync.setTable(Sync.Table.valueOf(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Sync.KEY_OBJECT_TABLE))));
         sync.setType(Sync.Type.valueOf(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Sync.KEY_OBJECT_TYPE))));
+
 
         return sync;
     }

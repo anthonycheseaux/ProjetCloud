@@ -171,11 +171,15 @@ public class Create_exhibition extends AppCompatActivity {
                 artwork.setExposed(true);
 
                 SyncDataSource sds = new SyncDataSource(this);
-                Sync sync = new Sync();
-                sync.setTable(Sync.Table.artwork);
-                sync.setObjectId(idArtwork);
-                sync.setType(Sync.Type.update);
-                sync.setId((int) sds.createSync(sync));
+                Sync sync;
+                sync = sds.getSyncByObjectId(idArtwork);
+                if(sync == null) {
+                    sync = new Sync();
+                    sync.setTable(Sync.Table.artwork);
+                    sync.setObjectId(idArtwork);
+                    sync.setType(Sync.Type.update);
+                    sync.setId((int) sds.createSync(sync));
+                }
 
                 /**
                  * Manage Room
@@ -192,10 +196,14 @@ public class Create_exhibition extends AppCompatActivity {
                 artwork.setForeign_key_Room_id(idRoom);
                 akds.updateArtwork(artwork);
 
-                sync.setTable(Sync.Table.room);
-                sync.setObjectId(idRoom);
-                sync.setType(Sync.Type.update);
-                sync.setId((int) sds.createSync(sync));
+                sync = sds.getSyncByObjectId(idRoom);
+                if(sync == null) {
+                    sync = new Sync();
+                    sync.setTable(Sync.Table.room);
+                    sync.setObjectId(idRoom);
+                    sync.setType(Sync.Type.update);
+                    sync.setId((int) sds.createSync(sync));
+                }
 
                 /**
                  * Manage Artist
@@ -207,10 +215,14 @@ public class Create_exhibition extends AppCompatActivity {
                 artist.setExposed(true);
                 atds.updateArtist(artist);
 
-                sync.setTable(Sync.Table.artist);
-                sync.setObjectId(idArtist);
-                sync.setType(Sync.Type.update);
-                sync.setId((int) sds.createSync(sync));
+                sync = sds.getSyncByObjectId(idArtist);
+                if(sync == null) {
+                    sync = new Sync();
+                    sync.setTable(Sync.Table.artist);
+                    sync.setObjectId(idArtist);
+                    sync.setType(Sync.Type.update);
+                    sync.setId((int) sds.createSync(sync));
+                }
 
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);
                 sqlHelper.getWritableDatabase().close();

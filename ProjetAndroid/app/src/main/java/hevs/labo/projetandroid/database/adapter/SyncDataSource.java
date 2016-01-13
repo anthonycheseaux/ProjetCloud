@@ -41,6 +41,28 @@ public class SyncDataSource {
     }
 
     /**
+     * Get sync by objetc id
+     */
+    public Sync getSyncByObjectId(long object_id) {
+        String sql = "SELECT * FROM " + ArtGalleryContract.Sync.TABLE_SYNC
+                + " WHERE " + ArtGalleryContract.Sync.KEY_OBJECT_ID + " = " + object_id;
+
+        Cursor cursor = this.db.rawQuery(sql, null);
+
+        if(cursor != null){
+            cursor.moveToFirst();
+        }
+
+        Sync sync = new Sync();
+        sync.setId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Sync.KEY_ID)));
+        sync.setObjectId(cursor.getLong(cursor.getColumnIndex(ArtGalleryContract.Sync.KEY_OBJECT_ID)));
+        sync.setTable(Sync.Table.valueOf(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Sync.KEY_OBJECT_TABLE))));
+        sync.setType(Sync.Type.valueOf(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Sync.KEY_OBJECT_TYPE))));
+
+        return sync;
+    }
+
+    /**
      * Get insert artist sync
      */
     public List<Sync> getSyncInsertArtist() {

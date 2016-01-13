@@ -125,36 +125,46 @@ public class Settings extends AppCompatActivity {
     public void sync(View view){
         //new EndpointsAsyncTaskHello().execute(new Pair<Context, String>(this, "Manfred"));
 
-        List<List> listInsert = new ArrayList<>();
-        listInsert.add(getInsertArtist());
+        try {
+            List<List> listInsert = new ArrayList<>();
+            listInsert.add(getInsertArtist());
 
-        //ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
-        //List<Artist> artistList = ads.getAllArtistsBackend();
-        //list.add(artistList);
+            //ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
+            //List<Artist> artistList = ads.getAllArtistsBackend();
+            //list.add(artistList);
 
-        ArtworkDataSource awds = new ArtworkDataSource(getApplicationContext());
-        List<Artwork> artworkList = awds.getAllArtworksBackend();
-        listInsert.add(artworkList);
+            ArtworkDataSource awds = new ArtworkDataSource(getApplicationContext());
+            List<Artwork> artworkList = awds.getAllArtworksBackend();
+            listInsert.add(artworkList);
 
-        RoomDataSource rds = new RoomDataSource(getApplicationContext());
-        List<Room> roomList = rds.getAllRoomsBackend();
-        listInsert.add(roomList);
+            RoomDataSource rds = new RoomDataSource(getApplicationContext());
+            List<Room> roomList = rds.getAllRoomsBackend();
+            listInsert.add(roomList);
 
-        new EndpointsAsyncTaskInsert().execute(new Pair<Context, List<List>>(this, listInsert));
+            new EndpointsAsyncTaskInsert().execute(new Pair<Context, List<List>>(this, listInsert));
+        }
+        catch(IndexOutOfBoundsException e) {}
 
 
         List<List> listUpdate = new ArrayList<>();
-        listUpdate.add(getUpdateArtist());
-        listUpdate.add(null);
-        listUpdate.add(null);
-        new EndpointsAsyncTaskUpdate().execute(new Pair<Context, List<List>>(this, listUpdate));
+        try {
+            listUpdate.add(getUpdateArtist());
+            listUpdate.add(null);
+            listUpdate.add(null);
+            new EndpointsAsyncTaskUpdate().execute(new Pair<Context, List<List>>(this, listUpdate));
+        }
+        catch(IndexOutOfBoundsException e) {}
 
-
+        try {
         List<List> listDelete = new ArrayList<>();
         listDelete.add(getDeleteArtist());
         listDelete.add(null);
         listDelete.add(null);
         new EndpointsAsyncTaskDelete().execute(new Pair<Context, List<List>>(this, listDelete));
+        }
+        catch(IndexOutOfBoundsException e) {
+
+    }
     }
 
     private List<Artist> getInsertArtist() {

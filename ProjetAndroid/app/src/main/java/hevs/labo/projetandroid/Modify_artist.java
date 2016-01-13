@@ -282,11 +282,22 @@ public class Modify_artist extends AppCompatActivity implements View.OnClickList
                 ads.updateArtist(artistToModify);
 
                 SyncDataSource sds = new SyncDataSource(this);
-                Sync sync = new Sync();
-                sync.setType(Sync.Type.update);
-                sync.setTable(Sync.Table.artist);
-                sync.setObjectId(artistToModify.getId());
-                sync.setId((int) sds.createSync(sync));
+                Sync sync;
+
+                try {
+                    sync = sds.getSyncByObjectId(artistToModify.getId());
+                }
+                catch(IndexOutOfBoundsException e) {
+                    sync = null;
+                }
+
+                if(sync == null) {
+                    sync = new Sync();
+                    sync.setTable(Sync.Table.artist);
+                    sync.setObjectId(artistToModify.getId());
+                    sync.setType(Sync.Type.update);
+                    sync.setId((int) sds.createSync(sync));
+                }
 
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);
                 sqlHelper.getWritableDatabase().close();

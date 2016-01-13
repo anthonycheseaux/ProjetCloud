@@ -258,9 +258,9 @@ public class Create_artist extends AppCompatActivity implements View.OnClickList
 
                 SyncDataSource sds = new SyncDataSource(this);
                 Sync sync = new Sync();
-                sync.setType(Sync.Type.insert);
                 sync.setTable(Sync.Table.artist);
                 sync.setObjectId(artist.getId());
+                sync.setType(Sync.Type.insert);
                 sync.setId((int) sds.createSync(sync));
 
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);

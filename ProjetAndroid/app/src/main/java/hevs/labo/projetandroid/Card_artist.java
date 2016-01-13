@@ -225,11 +225,32 @@ public class Card_artist extends AppCompatActivity {
                 artistDataSource.deleteArtist(id_artist);
 
                 SyncDataSource sds = new SyncDataSource(this);
-                Sync sync = new Sync();
-                sync.setType(Sync.Type.delete);
-                sync.setTable(Sync.Table.artist);
-                sync.setObjectId(id_artist);
-                sync.setId((int) sds.createSync(sync));
+                Sync sync;
+                try {
+                    sync = sds.getSyncByObjectId(id_artist);
+                }
+                catch(ArrayIndexOutOfBoundsException e){
+                    sync = null;
+                }
+
+                if(sync == null) {
+                    sync = new Sync();
+                    sync.setTable(Sync.Table.artist);
+                    sync.setObjectId(id_artist);
+                    sync.setType(Sync.Type.delete);
+                    sync.setId((int) sds.createSync(sync));
+                }
+                else {
+                    if(sync.getType().equals(Sync.Type.update)) {
+                        sync.setType(Sync.Type.delete);
+                    }
+                    else {
+                        if(sync.getType().equals(Sync.Type.insert)){
+                            sds.deleteSync(sync.getId());
+                        }
+                    }
+                }
+
 
                 int duration = Toast.LENGTH_SHORT;
 

@@ -22,9 +22,9 @@ import hevs.labo.projetandroid.backend.roomApi.RoomApi;
 import hevs.labo.projetandroid.backend.roomApi.model.Room;
 
 /**
- * Created by Anthony on 12/01/2016.
+ * Created by Anthony on 13/01/2016.
  */
-public class EndpointsAsyncTask extends AsyncTask<Pair<Context, List<List>>, Void, String> {
+public class EndpointsAsyncTaskUpdate extends AsyncTask<Pair<Context, List<List>>, Void, String> {
 
     //API Object
     private static ArtistApi artistApi = null;
@@ -91,19 +91,19 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, List<List>>, Voi
         try {
             if (artistList != null) {
                 for(Artist artist : artistList) {
-                    artistApi.insert(artist).execute();
+                    artistApi.update(artist.getId(), artist).execute();
                 }
             }
 
             if (artworkList != null) {
                 for(Artwork artwork : artworkList) {
-                    artworkApi.insert(artwork).execute();
+                    artworkApi.update(artwork.getId(), artwork).execute();
                 }
             }
 
             if (roomList != null) {
                 for(Room room : roomList) {
-                    roomApi.insert(room).execute();
+                    roomApi.update(room.getId(), room).execute();
                 }
             }
 

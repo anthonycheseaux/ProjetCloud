@@ -23,6 +23,8 @@ import hevs.labo.projetandroid.backend.roomApi.model.Room;
 import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
 import hevs.labo.projetandroid.database.adapter.ArtworkDataSource;
 import hevs.labo.projetandroid.database.adapter.RoomDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Settings extends AppCompatActivity {
 
@@ -123,23 +125,81 @@ public class Settings extends AppCompatActivity {
     public void sync(View view){
         //new EndpointsAsyncTaskHello().execute(new Pair<Context, String>(this, "Manfred"));
 
-        List<List> list = new ArrayList<>();
+        List<List> listInsert = new ArrayList<>();
+        listInsert.add(getInsertArtist());
 
-        ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
-        List<Artist> artistList = ads.getAllArtistsBackend();
-        list.add(artistList);
+        //ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
+        //List<Artist> artistList = ads.getAllArtistsBackend();
+        //list.add(artistList);
 
         ArtworkDataSource awds = new ArtworkDataSource(getApplicationContext());
         List<Artwork> artworkList = awds.getAllArtworksBackend();
-        list.add(artworkList);
+        listInsert.add(artworkList);
 
         RoomDataSource rds = new RoomDataSource(getApplicationContext());
         List<Room> roomList = rds.getAllRoomsBackend();
-        list.add(roomList);
+        listInsert.add(roomList);
 
-        new EndpointsAsyncTask().execute(new Pair<Context, List<List>>(this, list));
+        new EndpointsAsyncTaskInsert().execute(new Pair<Context, List<List>>(this, listInsert));
 
-        //new EndpointAsyncTaskArtistGet().execute(new Pair<Context, String>(this, "un artiste"));
+
+        List<List> listUpdate = new ArrayList<>();
+        listUpdate.add(getUpdateArtist());
+        listUpdate.add(null);
+        listUpdate.add(null);
+        new EndpointsAsyncTaskUpdate().execute(new Pair<Context, List<List>>(this, listUpdate));
+
+
+        List<List> listDelete = new ArrayList<>();
+        listDelete.add(getDeleteArtist());
+        listDelete.add(null);
+        listDelete.add(null);
+        new EndpointsAsyncTaskDelete().execute(new Pair<Context, List<List>>(this, listDelete));
+    }
+
+    private List<Artist> getInsertArtist() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+        ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
+
+        List<Sync> syncArtist = sds.getSyncInsertArtist();
+        List<Artist> artistList = new ArrayList<>();
+
+        for(int i=0; i<syncArtist.size(); i++) {
+            artistList.add(ads.getArtistByIdBackend(syncArtist.get(i).getObjectId()));
+            sds.deleteSync(syncArtist.get(i).getId());
+        }
+
+        return artistList;
+    }
+
+    private List<Artist> getUpdateArtist() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+        ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
+
+        List<Sync> syncArtist = sds.getSyncUpdateArtist();
+        List<Artist> artistList = new ArrayList<>();
+
+        for(int i=0; i<syncArtist.size(); i++) {
+            artistList.add(ads.getArtistByIdBackend(syncArtist.get(i).getObjectId()));
+            sds.deleteSync(syncArtist.get(i).getId());
+        }
+
+        return artistList;
+    }
+
+    private List<Artist> getDeleteArtist() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+        ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
+
+        List<Sync> syncArtist = sds.getSyncDeleteArtist();
+        List<Artist> artistList = new ArrayList<>();
+
+        for(int i=0; i<syncArtist.size(); i++) {
+            artistList.add(new Artist().setId(syncArtist.get(i).getObjectId()));
+            sds.deleteSync(syncArtist.get(i).getId());
+        }
+
+        return artistList;
     }
 
     public void setLocale(String lang) {

@@ -12,10 +12,7 @@ import javax.persistence.GenerationType;
 @Entity
 public class Artwork {
     @Id
-    @GeneratedValue(strategy=	GenerationType.IDENTITY)
-    private Long Id;
-
-    private int id;
+    private Long id;
     private String name;
     private String type;
     private String creationYear;
@@ -37,8 +34,8 @@ public class Artwork {
         this.foreign_key_Artist_id = foreign_key_Artist_id;
     }
 
-    public void setId(int id) {this.id = id; }
-    public int getId(){return id; }
+    public void setId(Long id) {this.id = id; }
+    public Long getId(){return id; }
 
     public void setName(String name){ this.name = name; }
     public String getName() {return name;}

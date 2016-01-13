@@ -1,6 +1,6 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/30Ethq1M2Ad9yXLqVYUyKQh7CeQ\"",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/R6ZXW-HZcpMXiu9iwhRYuZBYkBA\"",
  "discoveryVersion": "v1",
  "id": "roomApi:v1",
  "name": "roomApi",
@@ -93,8 +93,8 @@
    "type": "object",
    "properties": {
     "id": {
-     "type": "integer",
-     "format": "int32"
+     "type": "string",
+     "format": "int64"
     },
     "image_path": {
      "type": "string"
@@ -115,10 +115,10 @@
  "methods": {
   "get": {
    "id": "roomApi.get",
-   "path": "room/{Id}",
+   "path": "room/{id}",
    "httpMethod": "GET",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -126,7 +126,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "response": {
     "$ref": "Room"
@@ -174,10 +174,10 @@
   },
   "patch": {
    "id": "roomApi.patch",
-   "path": "room/{Id}",
+   "path": "room/{id}",
    "httpMethod": "PATCH",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -185,7 +185,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "request": {
     "$ref": "Room"
@@ -199,10 +199,10 @@
   },
   "remove": {
    "id": "roomApi.remove",
-   "path": "room/{Id}",
+   "path": "room/{id}",
    "httpMethod": "DELETE",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -210,7 +210,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"
@@ -218,10 +218,10 @@
   },
   "update": {
    "id": "roomApi.update",
-   "path": "room/{Id}",
+   "path": "room/{id}",
    "httpMethod": "PUT",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -229,7 +229,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "request": {
     "$ref": "Room",

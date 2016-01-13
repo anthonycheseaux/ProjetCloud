@@ -1,6 +1,6 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/P1Rz1fEUwzlt5pyX3nu89OEL_j4\"",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/vV1Oq2VilEHHz9agSUCUAa_CI0Q\"",
  "discoveryVersion": "v1",
  "id": "artworkApi:v1",
  "name": "artworkApi",
@@ -95,8 +95,8 @@
      "format": "int32"
     },
     "id": {
-     "type": "integer",
-     "format": "int32"
+     "type": "string",
+     "format": "int64"
     },
     "image_path": {
      "type": "string"
@@ -128,10 +128,10 @@
  "methods": {
   "get": {
    "id": "artworkApi.get",
-   "path": "artwork/{Id}",
+   "path": "artwork/{id}",
    "httpMethod": "GET",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -139,7 +139,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "response": {
     "$ref": "Artwork"
@@ -187,10 +187,10 @@
   },
   "patch": {
    "id": "artworkApi.patch",
-   "path": "artwork/{Id}",
+   "path": "artwork/{id}",
    "httpMethod": "PATCH",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -198,7 +198,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "request": {
     "$ref": "Artwork"
@@ -212,10 +212,10 @@
   },
   "remove": {
    "id": "artworkApi.remove",
-   "path": "artwork/{Id}",
+   "path": "artwork/{id}",
    "httpMethod": "DELETE",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -223,7 +223,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"
@@ -231,10 +231,10 @@
   },
   "update": {
    "id": "artworkApi.update",
-   "path": "artwork/{Id}",
+   "path": "artwork/{id}",
    "httpMethod": "PUT",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -242,7 +242,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "request": {
     "$ref": "Artwork",

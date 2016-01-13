@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/F8dVIO8GEHdynp-k2A7-1U-gTgo\"",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/e9jR26_vsD--yllBpK-kyrDpnIg\"",
  "discoveryVersion": "v1",
  "id": "artistApi:v1",
  "name": "artistApi",
@@ -88,8 +88,8 @@
      "type": "string"
     },
     "id": {
-     "type": "integer",
-     "format": "int32"
+     "type": "string",
+     "format": "int64"
     },
     "image_path": {
      "type": "string"
@@ -126,14 +126,14 @@
    "id": "artistApi.get",
    "allowGet": true,
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64"
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "returns": {
     "$ref": "Artist"
@@ -182,11 +182,6 @@
    "id": "artistApi.patch",
    "supportsPatch": true,
    "parameters": {
-    "Id": {
-     "type": "string",
-     "required": true,
-     "format": "int64"
-    },
     "birth": {
      "type": "string"
     },
@@ -200,8 +195,8 @@
      "type": "string"
     },
     "id": {
-     "type": "integer",
-     "format": "int32"
+     "type": "string",
+     "format": "int64"
     },
     "image_path": {
      "type": "string"
@@ -217,7 +212,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "returns": {
     "$ref": "Artist"
@@ -229,14 +224,14 @@
   "artistApi.remove": {
    "id": "artistApi.remove",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64"
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"
@@ -245,7 +240,7 @@
   "artistApi.update": {
    "id": "artistApi.update",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64"
@@ -256,7 +251,7 @@
    },
    "parameterOrder": [
     "resource",
-    "Id"
+    "id"
    ],
    "returns": {
     "$ref": "Artist"

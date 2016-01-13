@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/30Ethq1M2Ad9yXLqVYUyKQh7CeQ\"",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/R6ZXW-HZcpMXiu9iwhRYuZBYkBA\"",
  "discoveryVersion": "v1",
  "id": "roomApi:v1",
  "name": "roomApi",
@@ -91,8 +91,8 @@
    "type": "object",
    "properties": {
     "id": {
-     "type": "integer",
-     "format": "int32"
+     "type": "string",
+     "format": "int64"
     },
     "image_path": {
      "type": "string"
@@ -115,14 +115,14 @@
    "id": "roomApi.get",
    "allowGet": true,
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64"
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "returns": {
     "$ref": "Room"
@@ -171,14 +171,9 @@
    "id": "roomApi.patch",
    "supportsPatch": true,
    "parameters": {
-    "Id": {
-     "type": "string",
-     "required": true,
-     "format": "int64"
-    },
     "id": {
-     "type": "integer",
-     "format": "int32"
+     "type": "string",
+     "format": "int64"
     },
     "image_path": {
      "type": "string"
@@ -195,7 +190,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "returns": {
     "$ref": "Room"
@@ -207,14 +202,14 @@
   "roomApi.remove": {
    "id": "roomApi.remove",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64"
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"
@@ -223,7 +218,7 @@
   "roomApi.update": {
    "id": "roomApi.update",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64"
@@ -234,7 +229,7 @@
    },
    "parameterOrder": [
     "resource",
-    "Id"
+    "id"
    ],
    "returns": {
     "$ref": "Room"

@@ -148,7 +148,7 @@ public class ArtworkDataSource {
             do {
                 hevs.labo.projetandroid.backend.artworkApi.model.Artwork artwork = new hevs.labo.projetandroid.backend.artworkApi.model.Artwork();
 
-                artwork.setId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_ID)));
+                artwork.setId(cursor.getLong(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_ID)));
                 artwork.setName(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_NAME)));
                 artwork.setType(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_TYPE)));
                 artwork.setCreationYear(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artwork.KEY_CREATION_YEAR)));

@@ -35,6 +35,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         db.execSQL(ArtGalleryContract.Artist.CREATE_TABLE_ARTIST);
         db.execSQL(ArtGalleryContract.Room.CREATE_TABLE_ROOM);
         db.execSQL(ArtGalleryContract.Artwork.CREATE_TABLE_ARTWORK);
+        db.execSQL(ArtGalleryContract.Sync.CREATE_TABLE_SYNC);
     }
 
     @Override
@@ -43,6 +44,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + ArtGalleryContract.Artist.TABLE_ARTIST);
         db.execSQL("DROP TABLE IF EXISTS " + ArtGalleryContract.Room.TABLE_ROOM);
         db.execSQL("DROP TABLE IF EXISTS " + ArtGalleryContract.Artwork.TABLE_ARTWORK);
+        db.execSQL("DRIO TABLE IF EXISTA " + ArtGalleryContract.Sync.TABLE_SYNC);
 
         //create new tables
         onCreate(db);

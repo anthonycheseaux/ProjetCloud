@@ -12,10 +12,7 @@ import javax.persistence.GenerationType;
 @Entity
 public class Room {
     @com.googlecode.objectify.annotation.Id
-    @GeneratedValue(strategy=	GenerationType.IDENTITY)
-    private Long Id;
-
-    private int id;
+    private Long id;
     private String name;
     private double size;
     private String image_path;
@@ -46,9 +43,9 @@ public class Room {
 
     public void setImage_path(String image_path) { this.image_path = image_path; }
 
-    public int getId(){ return id; }
+    public Long getId(){ return id; }
 
-    public void setId(int id) { this.id = id; }
+    public void setId(Long id) { this.id = id; }
 
     @Override
     public String toString() {

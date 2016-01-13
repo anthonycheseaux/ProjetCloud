@@ -23,7 +23,7 @@ import static com.googlecode.objectify.ObjectifyService.ofy;
  * WARNING: This generated code is intended as a sample or starting point for using a
  * Google Cloud Endpoints RESTful API with an Objectify entity. It provides no data access
  * restrictions and no data validation.
- * <p/>
+ * <p>
  * DO NOT deploy this code unchanged as part of a real application to real users.
  */
 @Api(
@@ -50,19 +50,19 @@ public class ArtworkEndpoint {
     /**
      * Returns the {@link Artwork} with the corresponding ID.
      *
-     * @param Id the ID of the entity to be retrieved
+     * @param id the ID of the entity to be retrieved
      * @return the entity with the corresponding ID
      * @throws NotFoundException if there is no {@code Artwork} with the provided ID.
      */
     @ApiMethod(
             name = "get",
-            path = "artwork/{Id}",
+            path = "artwork/{id}",
             httpMethod = ApiMethod.HttpMethod.GET)
-    public Artwork get(@Named("Id") Long Id) throws NotFoundException {
-        logger.info("Getting Artwork with ID: " + Id);
-        Artwork artwork = ofy().load().type(Artwork.class).id(Id).now();
+    public Artwork get(@Named("id") Long id) throws NotFoundException {
+        logger.info("Getting Artwork with ID: " + id);
+        Artwork artwork = ofy().load().type(Artwork.class).id(id).now();
         if (artwork == null) {
-            throw new NotFoundException("Could not find Artwork with ID: " + Id);
+            throw new NotFoundException("Could not find Artwork with ID: " + id);
         }
         return artwork;
     }
@@ -76,7 +76,7 @@ public class ArtworkEndpoint {
             httpMethod = ApiMethod.HttpMethod.POST)
     public Artwork insert(Artwork artwork) {
         // Typically in a RESTful API a POST does not have a known ID (assuming the ID is used in the resource path).
-        // You should validate that artwork.Id has not been set. If the ID type is not supported by the
+        // You should validate that artwork.id has not been set. If the ID type is not supported by the
         // Objectify ID generator, e.g. long or String, then you should generate the unique ID yourself prior to saving.
         //
         // If your client provides the ID then you should probably use PUT instead.
@@ -89,19 +89,19 @@ public class ArtworkEndpoint {
     /**
      * Updates an existing {@code Artwork}.
      *
-     * @param Id      the ID of the entity to be updated
+     * @param id      the ID of the entity to be updated
      * @param artwork the desired state of the entity
      * @return the updated version of the entity
-     * @throws NotFoundException if the {@code Id} does not correspond to an existing
+     * @throws NotFoundException if the {@code id} does not correspond to an existing
      *                           {@code Artwork}
      */
     @ApiMethod(
             name = "update",
-            path = "artwork/{Id}",
+            path = "artwork/{id}",
             httpMethod = ApiMethod.HttpMethod.PUT)
-    public Artwork update(@Named("Id") Long Id, Artwork artwork) throws NotFoundException {
+    public Artwork update(@Named("id") Long id, Artwork artwork) throws NotFoundException {
         // TODO: You should validate your ID parameter against your resource's ID here.
-        checkExists(Id);
+        checkExists(id);
         ofy().save().entity(artwork).now();
         logger.info("Updated Artwork: " + artwork);
         return ofy().load().entity(artwork).now();
@@ -110,18 +110,18 @@ public class ArtworkEndpoint {
     /**
      * Deletes the specified {@code Artwork}.
      *
-     * @param Id the ID of the entity to delete
-     * @throws NotFoundException if the {@code Id} does not correspond to an existing
+     * @param id the ID of the entity to delete
+     * @throws NotFoundException if the {@code id} does not correspond to an existing
      *                           {@code Artwork}
      */
     @ApiMethod(
             name = "remove",
-            path = "artwork/{Id}",
+            path = "artwork/{id}",
             httpMethod = ApiMethod.HttpMethod.DELETE)
-    public void remove(@Named("Id") Long Id) throws NotFoundException {
-        checkExists(Id);
-        ofy().delete().type(Artwork.class).id(Id).now();
-        logger.info("Deleted Artwork with ID: " + Id);
+    public void remove(@Named("id") Long id) throws NotFoundException {
+        checkExists(id);
+        ofy().delete().type(Artwork.class).id(id).now();
+        logger.info("Deleted Artwork with ID: " + id);
     }
 
     /**
@@ -149,11 +149,11 @@ public class ArtworkEndpoint {
         return CollectionResponse.<Artwork>builder().setItems(artworkList).setNextPageToken(queryIterator.getCursor().toWebSafeString()).build();
     }
 
-    private void checkExists(Long Id) throws NotFoundException {
+    private void checkExists(Long id) throws NotFoundException {
         try {
-            ofy().load().type(Artwork.class).id(Id).safe();
+            ofy().load().type(Artwork.class).id(id).safe();
         } catch (com.googlecode.objectify.NotFoundException e) {
-            throw new NotFoundException("Could not find Artwork with ID: " + Id);
+            throw new NotFoundException("Could not find Artwork with ID: " + id);
         }
     }
 }

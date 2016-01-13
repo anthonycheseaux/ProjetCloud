@@ -93,7 +93,28 @@ public final class ArtGalleryContract {
                 + Room.KEY_NAME + " TEXT, "
                 + Room.KEY_SIZE + " DOUBLE, "
                 + Room.KEY_OCCUPATED + " BOOLEAN, "
-                + Room.KEY_IMAGE_PATH + " TEXT "
+                + Room.KEY_IMAGE_PATH + " TEXT"
+                + ");";
+    }
+
+    //Sync
+    public static abstract class Sync implements BaseColumns {
+        //Table name
+        public static final String TABLE_SYNC = "sync";
+
+        //Record columns name
+        public static final String KEY_ID = "id";
+        public static final String KEY_OBJECT_ID = "object_id";
+        public static final String KEY_OBJECT_TYPE = "object_type";
+        public static final String KEY_OBJECT_TABLE = "object_table";
+
+        //Table sync create statement
+        public static final String CREATE_TABLE_SYNC = "CREATE TABLE "
+                + TABLE_SYNC + "("
+                + Sync.KEY_ID + " INTEGER PRIMARY KEY, "
+                + Sync.KEY_OBJECT_ID + " INTEGER, "
+                + Sync.KEY_OBJECT_TYPE + " TEXT, "
+                + Sync.KEY_OBJECT_TABLE + " TEXT"
                 + ");";
     }
 }

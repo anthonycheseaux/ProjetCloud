@@ -29,7 +29,7 @@ public class EndpointsAsyncTaskHello extends AsyncTask<Pair<Context, String>, Vo
                     // options for running against local devappserver
                     // - 10.0.2.2 is localhost's IP address in Android emulator
                     // - turn off compression when running against local devappserver
-                    .setRootUrl("https://artgallery-2016.appspot.com/_ah/api/")
+                    .setRootUrl("https://galerieart-1993.appspot.com/_ah/api/")
                     .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                         @Override
                         public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {

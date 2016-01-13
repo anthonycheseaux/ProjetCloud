@@ -83,7 +83,7 @@ public class ArtistDataSource {
         }
 
         hevs.labo.projetandroid.backend.artistApi.model.Artist artist = new hevs.labo.projetandroid.backend.artistApi.model.Artist();
-        artist.setId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_ID)));
+        artist.setId(cursor.getLong(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_ID)));
         artist.setFirstname(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_FIRSTNAME)));
         artist.setLastname(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_LASTNAME)));
         artist.setPseudo(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_PSEUDO)));
@@ -162,7 +162,7 @@ public class ArtistDataSource {
             do {
                 hevs.labo.projetandroid.backend.artistApi.model.Artist artist = new hevs.labo.projetandroid.backend.artistApi.model.Artist();
 
-                artist.setId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_ID)));
+                artist.setId(cursor.getLong(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_ID)));
                 artist.setFirstname(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_FIRSTNAME)));
                 artist.setLastname(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_LASTNAME)));
                 artist.setPseudo(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Artist.KEY_PSEUDO)));

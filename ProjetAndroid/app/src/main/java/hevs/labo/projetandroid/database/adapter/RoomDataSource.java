@@ -107,7 +107,7 @@ public class RoomDataSource {
         if(cursor.moveToFirst()){
             do {
                 hevs.labo.projetandroid.backend.roomApi.model.Room room = new hevs.labo.projetandroid.backend.roomApi.model.Room();
-                room.setId(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_ID)));
+                room.setId(cursor.getLong(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_ID)));
                 room.setName(cursor.getString(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_NAME)));
                 room.setSize(cursor.getDouble(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_SIZE)));
                 room.setSelected(cursor.getInt(cursor.getColumnIndex(ArtGalleryContract.Room.KEY_OCCUPATED)) != 0);

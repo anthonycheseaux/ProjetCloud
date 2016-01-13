@@ -12,10 +12,7 @@ import javax.persistence.GenerationType;
 @Entity
 public class Artist {
     @Id
-    @GeneratedValue(strategy=	GenerationType.IDENTITY)
-    private Long Id;
-
-    private int id;
+    private Long id;
     private String firstname;
     private String lastname;
     private String pseudo;
@@ -52,7 +49,7 @@ public class Artist {
     //getter
 
 
-    public int getId() { return id; }
+    public Long getId() { return id; }
 
     public String getFirstname(){
         return firstname;
@@ -84,7 +81,7 @@ public class Artist {
 
 
     //setter
-    public void setId(int id) { this.id = id; }
+    public void setId(Long id) { this.id = id; }
 
     public void setFirstname(String firstname){
         this.firstname = firstname;

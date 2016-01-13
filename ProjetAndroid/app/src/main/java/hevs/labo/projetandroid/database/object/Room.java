@@ -10,14 +10,16 @@ public class Room {
     private double size;
     private String image_path;
     private boolean selected;
+    private int cloud;
 
     public Room() {}
 
-    public Room(String name, double size, boolean selected, String image_path) {
+    public Room(String name, double size, boolean selected, String image_path, int cloud) {
         this.name = name;
         this.size = size;
         this.selected = selected;
         this.image_path = image_path;
+        this.cloud = cloud;
     }
 
     public String getName() { return name; }
@@ -39,6 +41,14 @@ public class Room {
     public int getId(){ return id; }
 
     public void setId(int id) { this.id = id; }
+
+    public int getCloud() {
+        return cloud;
+    }
+
+    public void setCloud(int cloud) {
+        this.cloud = cloud;
+    }
 
     @Override
     public String toString() {

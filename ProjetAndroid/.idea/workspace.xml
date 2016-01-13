@@ -6,26 +6,153 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="193f6adf-75df-4fbc-b63a-3df1494b16a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTask.java" />
+    <list default="true" id="193f6adf-75df-4fbc-b63a-3df1494b16a4" name="Default" comment="J">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskDelete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskUpdate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Sync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/SyncDataSource.java" />
+      <change type="DELETED" beforePath="C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\classes\debug\hevs\labo\projetandroid\EndpointsAsyncTask$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\classes\debug\hevs\labo\projetandroid\EndpointsAsyncTask$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\classes\debug\hevs\labo\projetandroid\EndpointsAsyncTask$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\build\intermediates\classes\debug\hevs\labo\projetandroid\EndpointsAsyncTask.class" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Anthony\AndroidStudioProjects\ProjetCloud\ProjetAndroid\app\src\main\java\hevs\labo\projetandroid\EndpointsAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskInsert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/ArtGalleryContract$Room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/ArtGalleryContract$Room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/ArtGalleryContract.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/ArtGalleryContract.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/object/Artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/object/Artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/model/Artist.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/model/Artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/Artist.class" afterPath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/Artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/Artist.class" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/Artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Builder.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Get.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Get.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Patch.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Patch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Remove.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Remove.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Update.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi$Update.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artistApi/ArtistApi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/ArtistDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/ArtistDataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/ArtistEndpoint.class" afterPath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/ArtistEndpoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/ArtistEndpoint.class" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/ArtistEndpoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/object/Artwork.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/object/Artwork.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/model/Artwork.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/model/Artwork.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/Artwork.class" afterPath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/Artwork.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/Artwork.class" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/Artwork.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Builder.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Get.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Get.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Patch.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Patch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Remove.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Remove.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Update.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi$Update.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/ArtworkDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/ArtworkDataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/EndpointsAsyncTaskArtist$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/EndpointsAsyncTaskArtist$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/ArtworkEndpoint.class" afterPath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/ArtworkEndpoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/ArtworkEndpoint.class" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/ArtworkEndpoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist$ArtworkArtistAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist$ArtworkArtistAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artist$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artist$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artist$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artist$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/EndpointAsyncTaskArtistGet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/EndpointAsyncTaskArtistGet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/EndpointsAsyncTaskHello.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/EndpointsAsyncTaskHello.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/myApi/MyApi$Builder.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/myApi/MyApi$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/myApi/MyApi.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/myApi/MyApi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/object/Room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/object/Room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/model/Room.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/model/Room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/Room.class" afterPath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/Room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/Room.class" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/Room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Builder.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Get.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Get.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Patch.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Patch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Remove.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Remove.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Update.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi$Update.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi.class" afterPath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/hevs/labo/projetandroid/backend/roomApi/RoomApi.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/RoomDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/RoomDataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/RoomEndpoint.class" afterPath="$PROJECT_DIR$/backend/build/classes/main/hevs/labo/projetandroid/backend/RoomEndpoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/RoomEndpoint.class" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/classes/hevs/labo/projetandroid/backend/RoomEndpoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/SQLiteHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/SQLiteHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Settings.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Settings.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/client-libs/artistApi-v1-java.zip" afterPath="$PROJECT_DIR$/backend/build/client-libs/artistApi-v1-java.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/client-libs/artworkApi-v1-java.zip" afterPath="$PROJECT_DIR$/backend/build/client-libs/artworkApi-v1-java.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-5117742d6108e21187b60f3b33b5bb22d6531ccf.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-5117742d6108e21187b60f3b33b5bb22d6531ccf.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/libs/backend-android-endpoints.jar" afterPath="$PROJECT_DIR$/backend/build/libs/backend-android-endpoints.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/libs/backend.war" afterPath="$PROJECT_DIR$/backend/build/libs/backend.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/client-libs/myApi-v1-java.zip" afterPath="$PROJECT_DIR$/backend/build/client-libs/myApi-v1-java.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/client-libs/roomApi-v1-java.zip" afterPath="$PROJECT_DIR$/backend/build/client-libs/roomApi-v1-java.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/ArtGalleryContract.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/ArtGalleryContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artist.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/model/Artist.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/model/Artist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/artistApi-v1-java.zip-unzipped/artistApi/src/main/java/hevs/labo/projetandroid/backend/artistApi/model/Artist.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/artistApi-v1-java.zip-unzipped/artistApi/src/main/java/hevs/labo/projetandroid/backend/artistApi/model/Artist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artist.java" afterPath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/artistApi-v1-java.zip-unzipped/artistApi/src/main/java/hevs/labo/projetandroid/backend/artistApi/ArtistApi.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/artistApi-v1-java.zip-unzipped/artistApi/src/main/java/hevs/labo/projetandroid/backend/artistApi/ArtistApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/ArtistApiScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtistEndpoint.java" afterPath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtistEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artwork.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artwork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/model/Artwork.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/model/Artwork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/artworkApi-v1-java.zip-unzipped/artworkApi/src/main/java/hevs/labo/projetandroid/backend/artworkApi/model/Artwork.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/artworkApi-v1-java.zip-unzipped/artworkApi/src/main/java/hevs/labo/projetandroid/backend/artworkApi/model/Artwork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artwork.java" afterPath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artwork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/artworkApi-v1-java.zip-unzipped/artworkApi/src/main/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/artworkApi-v1-java.zip-unzipped/artworkApi/src/main/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/ArtworkApiScopes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtworkDataSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtworkDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtworkEndpoint.java" afterPath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtworkEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artist.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/model/CollectionResponseArtist.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artistApi/model/CollectionResponseArtist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/model/CollectionResponseArtwork.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/artworkApi/model/CollectionResponseArtwork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/model/CollectionResponseRoom.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/model/CollectionResponseRoom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artist.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointAsyncTaskArtistGet.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointAsyncTaskArtistGet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/MyApiScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/model/MyBean.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/myApi/model/MyBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Room.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Room.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/model/Room.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/model/Room.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/roomApi-v1-java.zip-unzipped/roomApi/src/main/java/hevs/labo/projetandroid/backend/roomApi/model/Room.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/roomApi-v1-java.zip-unzipped/roomApi/src/main/java/hevs/labo/projetandroid/backend/roomApi/model/Room.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Room.java" afterPath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Room.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/roomApi-v1-java.zip-unzipped/roomApi/src/main/java/hevs/labo/projetandroid/backend/roomApi/RoomApi.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/roomApi-v1-java.zip-unzipped/roomApi/src/main/java/hevs/labo/projetandroid/backend/roomApi/RoomApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/hevs/labo/projetandroid/backend/roomApi/RoomApiScopes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/RoomDataSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/RoomDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/RoomEndpoint.java" afterPath="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/RoomEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/SQLiteHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/SQLiteHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/webapp/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/backend/src/main/webapp/WEB-INF/appengine-web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/discovery-docs/artistApi-v1-rest.discovery" afterPath="$PROJECT_DIR$/backend/build/discovery-docs/artistApi-v1-rest.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/artistApi-v1-rest.discovery" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/artistApi-v1-rest.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/discovery-docs/artistApi-v1-rpc.discovery" afterPath="$PROJECT_DIR$/backend/build/discovery-docs/artistApi-v1-rpc.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/artistApi-v1-rpc.discovery" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/artistApi-v1-rpc.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/discovery-docs/artworkApi-v1-rest.discovery" afterPath="$PROJECT_DIR$/backend/build/discovery-docs/artworkApi-v1-rest.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/artworkApi-v1-rest.discovery" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/artworkApi-v1-rest.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/discovery-docs/artworkApi-v1-rpc.discovery" afterPath="$PROJECT_DIR$/backend/build/discovery-docs/artworkApi-v1-rpc.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/artworkApi-v1-rpc.discovery" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/artworkApi-v1-rpc.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/discovery-docs/roomApi-v1-rest.discovery" afterPath="$PROJECT_DIR$/backend/build/discovery-docs/roomApi-v1-rest.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/roomApi-v1-rest.discovery" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/roomApi-v1-rest.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/discovery-docs/roomApi-v1-rpc.discovery" afterPath="$PROJECT_DIR$/backend/build/discovery-docs/roomApi-v1-rpc.discovery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/roomApi-v1-rpc.discovery" afterPath="$PROJECT_DIR$/backend/build/exploded-app/WEB-INF/roomApi-v1-rpc.discovery" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProjetAndroid.iws" />
@@ -54,28 +181,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+            <state vertical-scroll-proportion="1.2252965">
+              <caret line="214" column="1" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EndpointsAsyncTask.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTask.java">
+      <file leaf-file-name="ArtistDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8731618">
-              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding>
-                <element signature="e#1806#2139#0" expanded="true" />
-                <element signature="e#2471#2804#0" expanded="true" />
-                <element signature="e#2803#2804#0" expanded="true" />
-                <element signature="e#3128#3461#0" expanded="true" />
-                <element signature="e#3460#3461#0" expanded="true" />
+                <element signature="e#6066#6074#0" expanded="true" />
+                <element signature="e#7783#7839#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndpointsAsyncTaskDelete.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskDelete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <folding>
+                <element signature="e#1812#2145#0" expanded="true" />
+                <element signature="e#2144#2145#0" expanded="true" />
+                <element signature="e#2477#2810#0" expanded="true" />
+                <element signature="e#2809#2810#0" expanded="true" />
+                <element signature="e#3134#3467#0" expanded="true" />
+                <element signature="e#3466#3467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Create_artist.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="263" column="0" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndpointsAsyncTaskUpdate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="122" column="0" selection-start-line="26" selection-start-column="38" selection-end-line="122" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1812#2145#0" expanded="true" />
+                <element signature="e#2144#2145#0" expanded="true" />
+                <element signature="e#2477#2810#0" expanded="true" />
+                <element signature="e#2809#2810#0" expanded="true" />
+                <element signature="e#3134#3467#0" expanded="true" />
+                <element signature="e#3466#3467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Artist.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="58" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Artwork.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artwork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+              <folding>
+                <element signature="e#1821#1822#0" expanded="true" />
+                <element signature="e#1849#1850#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndpointsAsyncTaskInsert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskInsert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2223,23 +2425,34 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/backend/build.gradle" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artwork.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointAsyncTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artwork.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Room.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Room.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artwork.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artist.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtistEndpoint.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtworkEndpoint.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/RoomEndpoint.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artist.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointAsyncTaskArtistGet.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointAsyncTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtworkDataSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/RoomDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointAsyncTaskArtistGet.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Sync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/SyncDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/ArtGalleryContract.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/SQLiteHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskUpdate.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskDelete.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTask.java" />
       </list>
     </option>
   </component>
@@ -2363,6 +2576,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetAndroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetandroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="object" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2625,37 +2864,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22441861" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32906976" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37325582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22441861" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21918543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14302325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="850" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2668,86 +2907,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8403869">
-          <caret line="105" column="82" selection-start-line="7" selection-start-column="4" selection-end-line="105" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.547763">
           <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.516324">
-          <caret line="68" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8935913">
-          <caret line="45" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4099153">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtistEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtworkEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtworkEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/RoomEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2773,39 +2936,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/RoomEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.70616686">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="false" />
+            <element signature="e#1338#1339#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointAsyncTaskArtistGet.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93107617">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.52116084">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#1324#1325#0" expanded="false" />
+            <element signature="e#1374#1375#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2394196">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="147" selection-start-line="154" selection-start-column="147" selection-end-line="154" selection-end-column="147" />
-          <folding>
-            <element signature="e#6065#6073#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.2394196">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2817,28 +2982,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/Artist.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtworkEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/RoomEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="5" selection-start-line="25" selection-start-column="38" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/RoomEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtworkEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/hevs/labo/projetandroid/backend/ArtistEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtworkDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60096735">
-          <caret line="158" column="44" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.33280757">
+          <caret line="150" column="45" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
           <folding>
             <element signature="e#3348#3357#0" expanded="true" />
             <element signature="e#5056#5065#0" expanded="true" />
@@ -2849,31 +3036,189 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/RoomDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46795648">
-          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+        <state vertical-scroll-proportion="-0.45741326">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39903265">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointAsyncTaskArtistGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50544137">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskArtist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0798066">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29262394">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Sync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8403869">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49455863">
+          <caret line="230" column="42" selection-start-line="230" selection-start-column="42" selection-end-line="230" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.452237">
+          <caret line="285" column="45" selection-start-line="285" selection-start-column="45" selection-end-line="285" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/SQLiteHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93107617">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/ArtGalleryContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8996372">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/SyncDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026602177">
+          <caret line="61" column="120" selection-start-line="61" selection-start-column="120" selection-end-line="61" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1407#1413#0" expanded="true" />
+            <element signature="e#2668#2674#0" expanded="true" />
+            <element signature="e#3924#3930#0" expanded="true" />
+            <element signature="e#5181#5187#0" expanded="true" />
+            <element signature="e#6442#6448#0" expanded="true" />
+            <element signature="e#7698#7704#0" expanded="true" />
+            <element signature="e#8955#8961#0" expanded="true" />
+            <element signature="e#10216#10222#0" expanded="true" />
+            <element signature="e#11472#11478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="58" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/object/Artwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="263" column="0" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="0" selection-start-line="26" selection-start-column="38" selection-end-line="122" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1812#2145#0" expanded="true" />
+            <element signature="e#2144#2145#0" expanded="true" />
+            <element signature="e#2477#2810#0" expanded="true" />
+            <element signature="e#2809#2810#0" expanded="true" />
+            <element signature="e#3134#3467#0" expanded="true" />
+            <element signature="e#3466#3467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/ArtistDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="e#6066#6074#0" expanded="true" />
+            <element signature="e#7783#7839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="e#1812#2145#0" expanded="true" />
+            <element signature="e#2144#2145#0" expanded="true" />
+            <element signature="e#2477#2810#0" expanded="true" />
+            <element signature="e#2809#2810#0" expanded="true" />
+            <element signature="e#3134#3467#0" expanded="true" />
+            <element signature="e#3466#3467#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+        <state vertical-scroll-proportion="1.2252965">
+          <caret line="214" column="1" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8731618">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding>
-            <element signature="e#1806#2139#0" expanded="true" />
-            <element signature="e#2471#2804#0" expanded="true" />
-            <element signature="e#2803#2804#0" expanded="true" />
-            <element signature="e#3128#3461#0" expanded="true" />
-            <element signature="e#3460#3461#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

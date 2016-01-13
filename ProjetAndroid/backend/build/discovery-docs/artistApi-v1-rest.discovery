@@ -1,6 +1,6 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/F8dVIO8GEHdynp-k2A7-1U-gTgo\"",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/e9jR26_vsD--yllBpK-kyrDpnIg\"",
  "discoveryVersion": "v1",
  "id": "artistApi:v1",
  "name": "artistApi",
@@ -90,8 +90,8 @@
      "type": "string"
     },
     "id": {
-     "type": "integer",
-     "format": "int32"
+     "type": "string",
+     "format": "int64"
     },
     "image_path": {
      "type": "string"
@@ -126,10 +126,10 @@
  "methods": {
   "get": {
    "id": "artistApi.get",
-   "path": "artist/{Id}",
+   "path": "artist/{id}",
    "httpMethod": "GET",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -137,7 +137,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "response": {
     "$ref": "Artist"
@@ -185,10 +185,10 @@
   },
   "patch": {
    "id": "artistApi.patch",
-   "path": "artist/{Id}",
+   "path": "artist/{id}",
    "httpMethod": "PATCH",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -196,7 +196,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "request": {
     "$ref": "Artist"
@@ -210,10 +210,10 @@
   },
   "remove": {
    "id": "artistApi.remove",
-   "path": "artist/{Id}",
+   "path": "artist/{id}",
    "httpMethod": "DELETE",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -221,7 +221,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"
@@ -229,10 +229,10 @@
   },
   "update": {
    "id": "artistApi.update",
-   "path": "artist/{Id}",
+   "path": "artist/{id}",
    "httpMethod": "PUT",
    "parameters": {
-    "Id": {
+    "id": {
      "type": "string",
      "required": true,
      "format": "int64",
@@ -240,7 +240,7 @@
     }
    },
    "parameterOrder": [
-    "Id"
+    "id"
    ],
    "request": {
     "$ref": "Artist",

@@ -14,10 +14,11 @@ public class Artist {
     private String movement;
     private String image_path;
     private boolean exposed;
+    private int cloud;
 
     public  Artist(){}
 
-    public Artist(String firstname, String lastname, String pseudo,String birth, String death, String movement,String image_path, boolean selected){
+    public Artist(String firstname, String lastname, String pseudo,String birth, String death, String movement,String image_path, boolean selected, int cloud){
         this.firstname = firstname;
         this.lastname = lastname;
         this.pseudo = pseudo;
@@ -26,17 +27,13 @@ public class Artist {
         this.movement = movement;
         this.image_path = image_path;
         this.exposed = selected;
+        this.cloud = cloud;
     }
 
 
 
     public String toString(){
-
-
-
             return firstname + "    " + lastname + "    " + pseudo  ;
-
-
     }
 
     //getter
@@ -70,6 +67,8 @@ public class Artist {
     }
 
     public String getImage_path() { return image_path; }
+
+    public int getCloud() { return cloud; }
 
 
     //setter
@@ -105,5 +104,5 @@ public class Artist {
 
     public void setImage_path(String image_path) { this.image_path = image_path; }
 
-
+    public void setCloud(int cloud) { this.cloud = cloud; }
 }

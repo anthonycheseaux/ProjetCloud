@@ -23,7 +23,7 @@ import static com.googlecode.objectify.ObjectifyService.ofy;
  * WARNING: This generated code is intended as a sample or starting point for using a
  * Google Cloud Endpoints RESTful API with an Objectify entity. It provides no data access
  * restrictions and no data validation.
- * <p/>
+ * <p>
  * DO NOT deploy this code unchanged as part of a real application to real users.
  */
 @Api(
@@ -50,19 +50,19 @@ public class ArtistEndpoint {
     /**
      * Returns the {@link Artist} with the corresponding ID.
      *
-     * @param Id the ID of the entity to be retrieved
+     * @param id the ID of the entity to be retrieved
      * @return the entity with the corresponding ID
      * @throws NotFoundException if there is no {@code Artist} with the provided ID.
      */
     @ApiMethod(
             name = "get",
-            path = "artist/{Id}",
+            path = "artist/{id}",
             httpMethod = ApiMethod.HttpMethod.GET)
-    public Artist get(@Named("Id") Long Id) throws NotFoundException {
-        logger.info("Getting Artist with ID: " + Id);
-        Artist artist = ofy().load().type(Artist.class).id(Id).now();
+    public Artist get(@Named("id") Long id) throws NotFoundException {
+        logger.info("Getting Artist with ID: " + id);
+        Artist artist = ofy().load().type(Artist.class).id(id).now();
         if (artist == null) {
-            throw new NotFoundException("Could not find Artist with ID: " + Id);
+            throw new NotFoundException("Could not find Artist with ID: " + id);
         }
         return artist;
     }
@@ -76,7 +76,7 @@ public class ArtistEndpoint {
             httpMethod = ApiMethod.HttpMethod.POST)
     public Artist insert(Artist artist) {
         // Typically in a RESTful API a POST does not have a known ID (assuming the ID is used in the resource path).
-        // You should validate that artist.Id has not been set. If the ID type is not supported by the
+        // You should validate that artist.id has not been set. If the ID type is not supported by the
         // Objectify ID generator, e.g. long or String, then you should generate the unique ID yourself prior to saving.
         //
         // If your client provides the ID then you should probably use PUT instead.
@@ -89,19 +89,19 @@ public class ArtistEndpoint {
     /**
      * Updates an existing {@code Artist}.
      *
-     * @param Id     the ID of the entity to be updated
+     * @param id     the ID of the entity to be updated
      * @param artist the desired state of the entity
      * @return the updated version of the entity
-     * @throws NotFoundException if the {@code Id} does not correspond to an existing
+     * @throws NotFoundException if the {@code id} does not correspond to an existing
      *                           {@code Artist}
      */
     @ApiMethod(
             name = "update",
-            path = "artist/{Id}",
+            path = "artist/{id}",
             httpMethod = ApiMethod.HttpMethod.PUT)
-    public Artist update(@Named("Id") Long Id, Artist artist) throws NotFoundException {
+    public Artist update(@Named("id") Long id, Artist artist) throws NotFoundException {
         // TODO: You should validate your ID parameter against your resource's ID here.
-        checkExists(Id);
+        checkExists(id);
         ofy().save().entity(artist).now();
         logger.info("Updated Artist: " + artist);
         return ofy().load().entity(artist).now();
@@ -110,18 +110,18 @@ public class ArtistEndpoint {
     /**
      * Deletes the specified {@code Artist}.
      *
-     * @param Id the ID of the entity to delete
-     * @throws NotFoundException if the {@code Id} does not correspond to an existing
+     * @param id the ID of the entity to delete
+     * @throws NotFoundException if the {@code id} does not correspond to an existing
      *                           {@code Artist}
      */
     @ApiMethod(
             name = "remove",
-            path = "artist/{Id}",
+            path = "artist/{id}",
             httpMethod = ApiMethod.HttpMethod.DELETE)
-    public void remove(@Named("Id") Long Id) throws NotFoundException {
-        checkExists(Id);
-        ofy().delete().type(Artist.class).id(Id).now();
-        logger.info("Deleted Artist with ID: " + Id);
+    public void remove(@Named("id") Long id) throws NotFoundException {
+        checkExists(id);
+        ofy().delete().type(Artist.class).id(id).now();
+        logger.info("Deleted Artist with ID: " + id);
     }
 
     /**
@@ -149,11 +149,11 @@ public class ArtistEndpoint {
         return CollectionResponse.<Artist>builder().setItems(artistList).setNextPageToken(queryIterator.getCursor().toWebSafeString()).build();
     }
 
-    private void checkExists(Long Id) throws NotFoundException {
+    private void checkExists(Long id) throws NotFoundException {
         try {
-            ofy().load().type(Artist.class).id(Id).safe();
+            ofy().load().type(Artist.class).id(id).safe();
         } catch (com.googlecode.objectify.NotFoundException e) {
-            throw new NotFoundException("Could not find Artist with ID: " + Id);
+            throw new NotFoundException("Could not find Artist with ID: " + id);
         }
     }
 }

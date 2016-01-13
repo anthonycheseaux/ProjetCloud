@@ -32,7 +32,9 @@ import java.util.Random;
 
 import hevs.labo.projetandroid.database.SQLiteHelper;
 import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
 import hevs.labo.projetandroid.database.object.Artist;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Modify_artist extends AppCompatActivity implements View.OnClickListener {
 
@@ -278,6 +280,13 @@ public class Modify_artist extends AppCompatActivity implements View.OnClickList
                 artistToModify.setImage_path(imagepath);
 
                 ads.updateArtist(artistToModify);
+
+                SyncDataSource sds = new SyncDataSource(this);
+                Sync sync = new Sync();
+                sync.setType(Sync.Type.update);
+                sync.setTable(Sync.Table.artist);
+                sync.setObjectId(artistToModify.getId());
+                sync.setId((int) sds.createSync(sync));
 
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);
                 sqlHelper.getWritableDatabase().close();

@@ -27,8 +27,10 @@ import java.util.Random;
 
 import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
 import hevs.labo.projetandroid.database.adapter.ArtworkDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
 import hevs.labo.projetandroid.database.object.Artist;
 import hevs.labo.projetandroid.database.object.Artwork;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Card_artist extends AppCompatActivity {
 
@@ -221,6 +223,13 @@ public class Card_artist extends AppCompatActivity {
                 int id_artist  = artistAafficher.getId();
                 ArtistDataSource artistDataSource = new ArtistDataSource(this);
                 artistDataSource.deleteArtist(id_artist);
+
+                SyncDataSource sds = new SyncDataSource(this);
+                Sync sync = new Sync();
+                sync.setType(Sync.Type.delete);
+                sync.setTable(Sync.Table.artist);
+                sync.setObjectId(id_artist);
+                sync.setId((int) sds.createSync(sync));
 
                 int duration = Toast.LENGTH_SHORT;
 

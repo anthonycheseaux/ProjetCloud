@@ -12,18 +12,20 @@ public class Artwork {
     private String description;
     private boolean exposed;
     private String image_path;
+    private int cloud;
     private int foreign_key_Artist_id;
     private int foreign_key_Room_id;
 
     public Artwork(){}
 
-    public Artwork(String name, String creationYear, String type, String description, boolean exposed, String image_path, int foreign_key_Artist_id){
+    public Artwork(String name, String creationYear, String type, String description, boolean exposed, int cloud, String image_path, int foreign_key_Artist_id){
         this.name = name;
         this.creationYear = creationYear;
         this.type = type;
         this.description = description;
         this.exposed = exposed;
         this.image_path = image_path;
+        this.cloud = cloud;
         this.foreign_key_Artist_id = foreign_key_Artist_id;
     }
 
@@ -56,6 +58,13 @@ public class Artwork {
 
     public void setImage_path(String image_path) {this.image_path = image_path;}
     public String getImage_path() {return image_path; }
+
+    public int getCloud() {
+        return cloud;
+    }
+    public void setCloud(int cloud) {
+        this.cloud = cloud;
+    }
 
     public void setForeign_key_Artist_id(int foreign_key_Artist_id){this.foreign_key_Artist_id = foreign_key_Artist_id; }
     public int getForeign_key_Artist_id(){ return foreign_key_Artist_id; }

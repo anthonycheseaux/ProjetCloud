@@ -279,15 +279,11 @@ public class Modify_artwork extends AppCompatActivity implements View.OnClickLis
                 artworkDataSource.updateArtwork(artworktoModify);
 
                 SyncDataSource sds = new SyncDataSource(this);
-                Sync sync;
-                sync = sds.getSyncByObjectId(artworktoModify.getId());
-                if(sync == null) {
-                    sync = new Sync();
-                    sync.setTable(Sync.Table.artwork);
-                    sync.setObjectId(artworktoModify.getId());
-                    sync.setType(Sync.Type.update);
-                    sync.setId((int) sds.createSync(sync));
-                }
+                Sync sync = new Sync();
+                sync.setTable(Sync.Table.artwork);
+                sync.setObjectId(artworktoModify.getId());
+                sync.setType(Sync.Type.update);
+                sync.setId((int) sds.createSync(sync));
 
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);
                 sqlHelper.getWritableDatabase().close();

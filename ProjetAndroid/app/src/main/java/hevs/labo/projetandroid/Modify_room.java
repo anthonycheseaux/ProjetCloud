@@ -184,15 +184,11 @@ public class Modify_room extends AppCompatActivity {
                 roomDataSource.updateRoom(roomToModify);
 
                 SyncDataSource sds = new SyncDataSource(this);
-                Sync sync;
-                sync = sds.getSyncByObjectId(roomToModify.getId());
-                if(sync == null) {
-                    sync = new Sync();
-                    sync.setTable(Sync.Table.room);
-                    sync.setObjectId(roomToModify.getId());
-                    sync.setType(Sync.Type.update);
-                    sync.setId((int) sds.createSync(sync));
-                }
+                Sync sync = new Sync();
+                sync.setTable(Sync.Table.room);
+                sync.setObjectId(roomToModify.getId());
+                sync.setType(Sync.Type.update);
+                sync.setId((int) sds.createSync(sync));
 
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);
                 sqlHelper.getWritableDatabase().close();

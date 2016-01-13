@@ -106,27 +106,19 @@ public class Card_exhibition extends AppCompatActivity {
                     room.setSelected(false);
                     rds.updateRoom(room);
 
-                    sync = sds.getSyncByObjectId(room.getId());
-                    if(sync == null) {
-                        sync = new Sync();
-                        sync.setTable(Sync.Table.room);
-                        sync.setObjectId(room.getId());
-                        sync.setType(Sync.Type.update);
-                        sync.setId((int) sds.createSync(sync));
-                    }
+                    sync.setTable(Sync.Table.room);
+                    sync.setObjectId(room.getId());
+                    sync.setType(Sync.Type.update);
+                    sync.setId((int) sds.createSync(sync));
                 }
                 if(artistExposed == false) {
                     artist.setExposed(false);
                     atds.updateArtist(artist);
 
-                    sync = sds.getSyncByObjectId(artist.getId());
-                    if(sync == null) {
-                        sync = new Sync();
-                        sync.setTable(Sync.Table.artist);
-                        sync.setObjectId(artist.getId());
-                        sync.setType(Sync.Type.update);
-                        sync.setId((int) sds.createSync(sync));
-                    }
+                    sync.setTable(Sync.Table.artist);
+                    sync.setObjectId(artist.getId());
+                    sync.setType(Sync.Type.update);
+                    sync.setId((int) sds.createSync(sync));
                 }
 
                 artwork.setExposed(false);

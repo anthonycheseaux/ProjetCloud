@@ -6,15 +6,42 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="193f6adf-75df-4fbc-b63a-3df1494b16a4" name="Default" comment="J">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/ArtworkDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/ArtworkDataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist$ArtworkArtistAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist$ArtworkArtistAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artwork.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_artwork.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_exhibition.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_exhibition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Card_room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artwork$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artwork$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artwork.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_artwork.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_exhibition$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_exhibition$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_exhibition.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_exhibition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Create_room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artwork$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artwork$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artwork$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artwork$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artwork.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_artwork.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_room$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_room$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_room.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Modify_room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/RoomDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/database/adapter/RoomDataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Settings.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/hevs/labo/projetandroid/Settings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_exhibition.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_exhibition.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_exhibition.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_exhibition.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artwork.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artwork.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_room.java" afterPath="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_room.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProjetAndroid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,71 +69,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Card_artist.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artist.java">
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="232" column="55" selection-start-line="232" selection-start-column="55" selection-end-line="232" selection-end-column="55" />
-              <folding />
+            <state vertical-scroll-proportion="0.57522124">
+              <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Card_artwork.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artwork.java">
+      <file leaf-file-name="RoomDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/RoomDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="122" column="55" selection-start-line="119" selection-start-column="16" selection-end-line="122" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Create_exhibition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_exhibition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="224" column="17" selection-start-line="217" selection-start-column="16" selection-end-line="224" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card_exhibition.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_exhibition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3192261">
-              <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modify_artist.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="292" column="17" selection-start-line="285" selection-start-column="16" selection-end-line="292" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modify_room.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="194" column="17" selection-start-line="187" selection-start-column="16" selection-end-line="194" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modify_artwork.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artwork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="289" column="17" selection-start-line="280" selection-start-column="16" selection-end-line="289" selection-end-column="17" />
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2282,15 +2261,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/RoomDataSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artwork.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artwork.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_room.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_room.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artist.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artwork.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_room.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_exhibition.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artwork.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_exhibition.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_exhibition.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artwork.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/List_artist.java" />
       </list>
     </option>
   </component>
@@ -2377,54 +2357,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetAndroid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projetandroid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetAndroid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projetandroid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -2438,7 +2370,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AndroidProject-master" />
     <property name="dynamic.classpath" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -2657,14 +2589,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4232558" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4360465" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2706,7 +2638,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2961,60 +2893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.591294">
-          <caret line="281" column="73" selection-start-line="281" selection-start-column="73" selection-end-line="281" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/RoomDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60096735">
-          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/EndpointsAsyncTaskInsert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36154777">
           <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49455863">
-          <caret line="170" column="45" selection-start-line="170" selection-start-column="45" selection-end-line="170" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="254" column="42" selection-start-line="254" selection-start-column="42" selection-end-line="254" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3349456">
-          <caret line="179" column="45" selection-start-line="179" selection-start-column="45" selection-end-line="179" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.452237">
-          <caret line="262" column="25" selection-start-line="258" selection-start-column="16" selection-end-line="263" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -3039,59 +2921,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="55" selection-start-line="119" selection-start-column="16" selection-end-line="122" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="232" column="55" selection-start-line="232" selection-start-column="55" selection-end-line="232" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="289" column="17" selection-start-line="280" selection-start-column="16" selection-end-line="289" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="194" column="17" selection-start-line="187" selection-start-column="16" selection-end-line="194" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="292" column="17" selection-start-line="285" selection-start-column="16" selection-end-line="292" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_exhibition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="224" column="17" selection-start-line="217" selection-start-column="16" selection-end-line="224" selection-end-column="17" />
+        <state vertical-scroll-proportion="-7.3055553">
+          <caret line="257" column="19" selection-start-line="257" selection-start-column="17" selection-end-line="257" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_exhibition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3192261">
-          <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+        <state vertical-scroll-proportion="-10.361111">
+          <caret line="119" column="49" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.471555">
+          <caret line="170" column="45" selection-start-line="170" selection-start-column="45" selection-end-line="170" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Card_artwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.109987356">
+          <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5498721">
+          <caret line="276" column="19" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_artwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37800252">
+          <caret line="254" column="42" selection-start-line="254" selection-start-column="42" selection-end-line="254" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_exhibition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.19595449">
+          <caret line="190" column="26" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Create_room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35018963">
+          <caret line="179" column="45" selection-start-line="179" selection-start-column="45" selection-end-line="179" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/List_artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06573957">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/List_artwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06573957">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/List_exhibition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06573957">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/List_room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06573957">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06573957">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/MobileArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14917825">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7496839">
+          <caret line="287" column="45" selection-start-line="287" selection-start-column="39" selection-end-line="287" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_artwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324905">
+          <caret line="278" column="40" selection-start-line="278" selection-start-column="34" selection-end-line="278" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Modify_room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3055553">
+          <caret line="183" column="37" selection-start-line="183" selection-start-column="31" selection-end-line="183" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/NothingSelectedSpinnerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2777777">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/database/adapter/RoomDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hevs/labo/projetandroid/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57522124">
+          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

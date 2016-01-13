@@ -16,8 +16,10 @@ import java.io.File;
 
 import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
 import hevs.labo.projetandroid.database.adapter.ArtworkDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
 import hevs.labo.projetandroid.database.object.Artist;
 import hevs.labo.projetandroid.database.object.Artwork;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Card_artwork extends AppCompatActivity {
 
@@ -112,11 +114,18 @@ public class Card_artwork extends AppCompatActivity {
             case R.id.deleteArtwork_menu:
 
                 int id_artworkTodelete  = artworkAafficher.getId();
+
+                SyncDataSource sds = new SyncDataSource(this);
+                Sync sync = new Sync();
+                sync.setTable(Sync.Table.artwork);
+                sync.setObjectId(id_artworkTodelete);
+                sync.setType(Sync.Type.delete);
+                sync.setId((int) sds.createSync(sync));
+
                 ArtworkDataSource artworkDataSource = new ArtworkDataSource(this);
                 artworkDataSource.deleteArtwork(id_artworkTodelete);
 
                 int duration = Toast.LENGTH_LONG;
-
                 Toast toast = Toast.makeText(this, R.string.artworkDeleted, duration);
                 toast.show();
 

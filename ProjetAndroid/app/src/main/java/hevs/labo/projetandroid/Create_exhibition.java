@@ -18,9 +18,11 @@ import hevs.labo.projetandroid.database.SQLiteHelper;
 import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
 import hevs.labo.projetandroid.database.adapter.ArtworkDataSource;
 import hevs.labo.projetandroid.database.adapter.RoomDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
 import hevs.labo.projetandroid.database.object.Artist;
 import hevs.labo.projetandroid.database.object.Artwork;
 import hevs.labo.projetandroid.database.object.Room;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Create_exhibition extends AppCompatActivity {
 
@@ -168,6 +170,13 @@ public class Create_exhibition extends AppCompatActivity {
                 artwork = akds.getArtworkById(idArtwork);
                 artwork.setExposed(true);
 
+                SyncDataSource sds = new SyncDataSource(this);
+                Sync sync = new Sync();
+                sync.setTable(Sync.Table.artwork);
+                sync.setObjectId(idArtwork);
+                sync.setType(Sync.Type.update);
+                sync.setId((int) sds.createSync(sync));
+
                 /**
                  * Manage Room
                  */
@@ -183,6 +192,11 @@ public class Create_exhibition extends AppCompatActivity {
                 artwork.setForeign_key_Room_id(idRoom);
                 akds.updateArtwork(artwork);
 
+                sync.setTable(Sync.Table.room);
+                sync.setObjectId(idRoom);
+                sync.setType(Sync.Type.update);
+                sync.setId((int) sds.createSync(sync));
+
                 /**
                  * Manage Artist
                  */
@@ -192,6 +206,11 @@ public class Create_exhibition extends AppCompatActivity {
                 artist = atds.getArtistById(idArtist);
                 artist.setExposed(true);
                 atds.updateArtist(artist);
+
+                sync.setTable(Sync.Table.artist);
+                sync.setObjectId(idArtist);
+                sync.setType(Sync.Type.update);
+                sync.setId((int) sds.createSync(sync));
 
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);
                 sqlHelper.getWritableDatabase().close();

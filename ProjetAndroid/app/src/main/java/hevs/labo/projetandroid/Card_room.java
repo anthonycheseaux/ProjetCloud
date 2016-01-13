@@ -20,7 +20,9 @@ import java.io.FileOutputStream;
 import java.util.Random;
 
 import hevs.labo.projetandroid.database.adapter.RoomDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
 import hevs.labo.projetandroid.database.object.Room;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Card_room extends AppCompatActivity {
 
@@ -163,6 +165,14 @@ public class Card_room extends AppCompatActivity {
             case R.id.deleteRoom_menu:
 
                 int id_rooomTodelete  = roomAafficher.getId();
+
+                SyncDataSource sds = new SyncDataSource(this);
+                Sync sync = new Sync();
+                sync.setTable(Sync.Table.room);
+                sync.setObjectId(id_rooomTodelete);
+                sync.setType(Sync.Type.delete);
+                sync.setId((int) sds.createSync(sync));
+
                 RoomDataSource roomDataSource = new RoomDataSource(this);
                 roomDataSource.deleteRoom(id_rooomTodelete);
 

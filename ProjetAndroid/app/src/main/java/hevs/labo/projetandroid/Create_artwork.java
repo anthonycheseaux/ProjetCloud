@@ -34,8 +34,10 @@ import java.util.Random;
 import hevs.labo.projetandroid.database.SQLiteHelper;
 import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
 import hevs.labo.projetandroid.database.adapter.ArtworkDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
 import hevs.labo.projetandroid.database.object.Artist;
 import hevs.labo.projetandroid.database.object.Artwork;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Create_artwork extends AppCompatActivity implements View.OnClickListener {
 
@@ -242,13 +244,16 @@ public class Create_artwork extends AppCompatActivity implements View.OnClickLis
 
                 et = (EditText) findViewById(R.id.edit_text_descriptionArtworkCreate);
                 artwork.setDescription(et.getText().toString());
-
                 artwork.setImage_path(imagepath);
-
                 artwork.setExposed(false);
-
-
                 artwork.setId((int) ads.createArtwork(artwork));
+
+                SyncDataSource sds = new SyncDataSource(this);
+                Sync sync = new Sync();
+                sync.setTable(Sync.Table.artwork);
+                sync.setObjectId(artwork.getId());
+                sync.setType(Sync.Type.insert);
+                sync.setId((int) sds.createSync(sync));
 
                 //close db instance
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);

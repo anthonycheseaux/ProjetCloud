@@ -13,9 +13,11 @@ import java.util.List;
 import hevs.labo.projetandroid.database.adapter.ArtistDataSource;
 import hevs.labo.projetandroid.database.adapter.ArtworkDataSource;
 import hevs.labo.projetandroid.database.adapter.RoomDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
 import hevs.labo.projetandroid.database.object.Artist;
 import hevs.labo.projetandroid.database.object.Artwork;
 import hevs.labo.projetandroid.database.object.Room;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Card_exhibition extends AppCompatActivity {
 
@@ -97,17 +99,36 @@ public class Card_exhibition extends AppCompatActivity {
                     }
                 }
 
+                SyncDataSource sds = new SyncDataSource(this);
+                Sync sync = new Sync();
+
                 if(roomOccupated == false) {
                     room.setSelected(false);
                     rds.updateRoom(room);
+
+                    sync.setTable(Sync.Table.room);
+                    sync.setObjectId(room.getId());
+                    sync.setType(Sync.Type.update);
+                    sync.setId((int) sds.createSync(sync));
                 }
                 if(artistExposed == false) {
                     artist.setExposed(false);
                     atds.updateArtist(artist);
+
+                    sync.setTable(Sync.Table.artist);
+                    sync.setObjectId(artist.getId());
+                    sync.setType(Sync.Type.update);
+                    sync.setId((int) sds.createSync(sync));
                 }
 
                 artwork.setExposed(false);
                 awds.updateArtwork(artwork);
+
+                sync.setTable(Sync.Table.artwork);
+                sync.setObjectId(artwork.getId());
+                sync.setType(Sync.Type.update);
+                sync.setId((int) sds.createSync(sync));
+
                 Toast toast = Toast.makeText(this, R.string.exhibitionDeleted, Toast.LENGTH_LONG);
                 toast.show();
 

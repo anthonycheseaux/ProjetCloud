@@ -221,8 +221,20 @@ public class Card_artist extends AppCompatActivity {
             case R.id.deleteArtist_menu:
                 int id_artist  = artistAafficher.getId();
 
+                ArtworkDataSource ads = new ArtworkDataSource(this);
+                List<Artwork> artworkList = ads.getAllArtworksByArtist(id_artist);
                 SyncDataSource sds = new SyncDataSource(this);
                 Sync sync = new Sync();
+
+                if(artworkList != null) {
+                    for(int i=0; i<artworkList.size(); i++) {
+                        sync.setTable(Sync.Table.artwork);
+                        sync.setObjectId(artworkList.get(i).getId());
+                        sync.setType(Sync.Type.delete);
+                        sync.setId((int) sds.createSync(sync));
+                    }
+                }
+
                 sync.setTable(Sync.Table.artist);
                 sync.setObjectId(id_artist);
                 sync.setType(Sync.Type.delete);

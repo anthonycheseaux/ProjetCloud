@@ -125,46 +125,39 @@ public class Settings extends AppCompatActivity {
     public void sync(View view){
         //new EndpointsAsyncTaskHello().execute(new Pair<Context, String>(this, "Manfred"));
 
-        try {
-            List<List> listInsert = new ArrayList<>();
-            listInsert.add(getInsertArtist());
+        //ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
+        //List<Artist> artistList = ads.getAllArtistsBackend();
+        //list.add(artistList);
 
-            //ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
-            //List<Artist> artistList = ads.getAllArtistsBackend();
-            //list.add(artistList);
+        //ArtworkDataSource awds = new ArtworkDataSource(getApplicationContext());
+        //List<Artwork> artworkList = awds.getAllArtworksBackend();
+        //listInsert.add(artworkList);
 
-            ArtworkDataSource awds = new ArtworkDataSource(getApplicationContext());
-            List<Artwork> artworkList = awds.getAllArtworksBackend();
-            listInsert.add(artworkList);
+        //RoomDataSource rds = new RoomDataSource(getApplicationContext());
+        //List<Room> roomList = rds.getAllRoomsBackend();
+        //listInsert.add(roomList);
 
-            RoomDataSource rds = new RoomDataSource(getApplicationContext());
-            List<Room> roomList = rds.getAllRoomsBackend();
-            listInsert.add(roomList);
 
-            new EndpointsAsyncTaskInsert().execute(new Pair<Context, List<List>>(this, listInsert));
-        }
-        catch(IndexOutOfBoundsException e) {}
+        List<List> listInsert = new ArrayList<>();
+        listInsert.add(getInsertArtist());
+        listInsert.add(getInsertArtwork());
+        listInsert.add(getInsertRoom());
+        new EndpointsAsyncTaskInsert().execute(new Pair<Context, List<List>>(this, listInsert));
 
 
         List<List> listUpdate = new ArrayList<>();
-        try {
-            listUpdate.add(getUpdateArtist());
-            listUpdate.add(null);
-            listUpdate.add(null);
-            new EndpointsAsyncTaskUpdate().execute(new Pair<Context, List<List>>(this, listUpdate));
-        }
-        catch(IndexOutOfBoundsException e) {}
+        listUpdate.add(getUpdateArtist());
+        listUpdate.add(getUpdateArtwork());
+        listUpdate.add(getUpdateRoom());
+        new EndpointsAsyncTaskUpdate().execute(new Pair<Context, List<List>>(this, listUpdate));
 
-        try {
+
         List<List> listDelete = new ArrayList<>();
         listDelete.add(getDeleteArtist());
-        listDelete.add(null);
-        listDelete.add(null);
+        listDelete.add(getDeleteArtwork());
+        listDelete.add(getDeleteRoom());
         new EndpointsAsyncTaskDelete().execute(new Pair<Context, List<List>>(this, listDelete));
-        }
-        catch(IndexOutOfBoundsException e) {
 
-    }
     }
 
     private List<Artist> getInsertArtist() {
@@ -182,6 +175,36 @@ public class Settings extends AppCompatActivity {
         return artistList;
     }
 
+    private List<Artwork> getInsertArtwork() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+        ArtworkDataSource ads = new ArtworkDataSource(getApplicationContext());
+
+        List<Sync> syncArtwork = sds.getSyncInsertArtwork();
+        List<Artwork> artworkList = new ArrayList<>();
+
+        for(int i=0; i<syncArtwork.size(); i++) {
+            artworkList.add(ads.getArtworkByIdBackend(syncArtwork.get(i).getObjectId()));
+            sds.deleteSync(syncArtwork.get(i).getId());
+        }
+
+        return artworkList;
+    }
+
+    private List<Room> getInsertRoom() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+        RoomDataSource rds = new RoomDataSource(getApplicationContext());
+
+        List<Sync> syncRoom = sds.getSyncInsertRoom();
+        List<Room> artworkList = new ArrayList<>();
+
+        for(int i=0; i<syncRoom.size(); i++) {
+            artworkList.add(rds.getRoomByIdBackend(syncRoom.get(i).getObjectId()));
+            sds.deleteSync(syncRoom.get(i).getId());
+        }
+
+        return artworkList;
+    }
+
     private List<Artist> getUpdateArtist() {
         SyncDataSource sds = new SyncDataSource(getApplicationContext());
         ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
@@ -197,9 +220,38 @@ public class Settings extends AppCompatActivity {
         return artistList;
     }
 
+    private List<Artwork> getUpdateArtwork() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+        ArtworkDataSource ads = new ArtworkDataSource(getApplicationContext());
+
+        List<Sync> syncArtwork = sds.getSyncUpdateArtwork();
+        List<Artwork> artworkList = new ArrayList<>();
+
+        for(int i=0; i<syncArtwork.size(); i++) {
+            artworkList.add(ads.getArtworkByIdBackend(syncArtwork.get(i).getObjectId()));
+            sds.deleteSync(syncArtwork.get(i).getId());
+        }
+
+        return artworkList;
+    }
+
+    private List<Room> getUpdateRoom() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+        RoomDataSource ads = new RoomDataSource(getApplicationContext());
+
+        List<Sync> syncRoom = sds.getSyncUpdateRoom();
+        List<Room> roomList = new ArrayList<>();
+
+        for(int i=0; i<syncRoom.size(); i++) {
+            roomList.add(ads.getRoomByIdBackend(syncRoom.get(i).getObjectId()));
+            sds.deleteSync(syncRoom.get(i).getId());
+        }
+
+        return roomList;
+    }
+
     private List<Artist> getDeleteArtist() {
         SyncDataSource sds = new SyncDataSource(getApplicationContext());
-        ArtistDataSource ads = new ArtistDataSource(getApplicationContext());
 
         List<Sync> syncArtist = sds.getSyncDeleteArtist();
         List<Artist> artistList = new ArrayList<>();
@@ -210,6 +262,34 @@ public class Settings extends AppCompatActivity {
         }
 
         return artistList;
+    }
+
+    private List<Artwork> getDeleteArtwork() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+
+        List<Sync> syncArtwork = sds.getSyncDeleteArtwork();
+        List<Artwork> artworkList = new ArrayList<>();
+
+        for(int i=0; i<syncArtwork.size(); i++) {
+            artworkList.add(new Artwork().setId(syncArtwork.get(i).getObjectId()));
+            sds.deleteSync(syncArtwork.get(i).getId());
+        }
+
+        return artworkList;
+    }
+
+    private List<Room> getDeleteRoom() {
+        SyncDataSource sds = new SyncDataSource(getApplicationContext());
+
+        List<Sync> syncRoom = sds.getSyncDeleteRoom();
+        List<Room> roomList = new ArrayList<>();
+
+        for(int i=0; i<syncRoom.size(); i++) {
+            roomList.add(new Room().setId(syncRoom.get(i).getObjectId()));
+            sds.deleteSync(syncRoom.get(i).getId());
+        }
+
+        return roomList;
     }
 
     public void setLocale(String lang) {

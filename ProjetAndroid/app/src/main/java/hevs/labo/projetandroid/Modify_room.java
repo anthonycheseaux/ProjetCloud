@@ -24,7 +24,9 @@ import java.util.Random;
 
 import hevs.labo.projetandroid.database.SQLiteHelper;
 import hevs.labo.projetandroid.database.adapter.RoomDataSource;
+import hevs.labo.projetandroid.database.adapter.SyncDataSource;
 import hevs.labo.projetandroid.database.object.Room;
+import hevs.labo.projetandroid.database.object.Sync;
 
 public class Modify_room extends AppCompatActivity {
 
@@ -178,11 +180,15 @@ public class Modify_room extends AppCompatActivity {
 
                 et = (EditText) findViewById(R.id.et_modify_room_size);
                 roomToModify.setSize(Double.parseDouble(et.getText().toString()));
-
                 roomToModify.setImage_path(imagepath);
-
-
                 roomDataSource.updateRoom(roomToModify);
+
+                SyncDataSource sds = new SyncDataSource(this);
+                Sync sync = new Sync();
+                sync.setTable(Sync.Table.room);
+                sync.setObjectId(roomToModify.getId());
+                sync.setType(Sync.Type.update);
+                sync.setId((int) sds.createSync(sync));
 
                 SQLiteHelper sqlHelper = SQLiteHelper.getInstance(this);
                 sqlHelper.getWritableDatabase().close();
